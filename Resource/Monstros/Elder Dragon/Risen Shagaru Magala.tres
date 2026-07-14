@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dbf8e8h8vi0h5"]
+
+[ext_resource type="Texture2D" uid="uid://depbkxm1a1kqw" path="res://Foto/Elder Dragon/MHRS-Risen_Shagaru_Magala_Icon.png" id="1_5vds1"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_55qtc"]
+
+[resource]
+script = ExtResource("2_55qtc")
+nome = "Risen Shagaru Magala"
+foto = ExtResource("1_5vds1")
+tipo = 8
+comentario2 = "A Shagaru Magala.. But even stronger!"
+comentario2_br = "Um Shagaru Magala... Mas ainda mais forte!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

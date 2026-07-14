@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dakxvlg22ijxn"]
+
+[ext_resource type="Texture2D" uid="uid://crw2yuy0fh0a4" path="res://Foto/Flying Wyvern/MHFrontier-Zerulos_Icon.png" id="1_587ri"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_8dg08"]
+
+[resource]
+script = ExtResource("2_8dg08")
+nome = "Zerureusu"
+foto = ExtResource("1_587ri")
+capturavel = true
+tipo = 3
+comentario2 = "One of those monsters that's so rare, I don't know if they're real or not.. I hope they are, I'd love to see those white scales!"
+comentario2_br = "Um daqueles monstros tão raros que não sei se são reais ou não... Espero que sejam, adoraria ver aquelas escamas brancas!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

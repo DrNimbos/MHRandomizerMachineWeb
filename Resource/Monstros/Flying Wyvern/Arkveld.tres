@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dfdory2qn2kyb"]
+
+[ext_resource type="Texture2D" uid="uid://dqhitx8y7uml0" path="res://Foto/Flying Wyvern/MHWA-Arkveld_Icon.png" id="1_au2uc"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_8nxev"]
+
+[resource]
+script = ExtResource("2_8nxev")
+nome = "Arkveld"
+foto = ExtResource("1_au2uc")
+capturavel = true
+tipo = 3
+comentario2 = "A creature that came back from extinction huh.. Seems poetic in a way.."
+comentario2_br = "Uma criatura que retornou da extinção, hein... Parece poético, de certa forma..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

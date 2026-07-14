@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bceqoufw1g1y1"]
+
+[ext_resource type="Texture2D" uid="uid://qllkntqndswl" path="res://Foto/Flying Wyvern/MH4U-Molten_Tigrex_Icon.png" id="1_mn4kr"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_roioh"]
+
+[resource]
+script = ExtResource("2_roioh")
+nome = "Molten Tigrex"
+foto = ExtResource("1_mn4kr")
+capturavel = true
+tipo = 3
+comentario2 = "I just imagine the size of this Tigrex... The way it's described it's SO HUGE!"
+comentario2_br = "Fico imaginando o tamanho desse Tigrex... Pela descrição, ele é ENORME!"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

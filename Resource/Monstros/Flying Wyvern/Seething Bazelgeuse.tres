@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bapeu7dyvvgby"]
+
+[ext_resource type="Texture2D" uid="uid://ct0qiw3nb75ob" path="res://Foto/Flying Wyvern/MHWI-Seething_Bazelgeuse_Icon.png" id="1_nja0h"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_qcnoc"]
+
+[resource]
+script = ExtResource("2_qcnoc")
+nome = "Seething Bazelgeuse"
+foto = ExtResource("1_nja0h")
+capturavel = true
+tipo = 3
+comentario2 = "The destructive power of this monster is very impressive!"
+comentario2_br = "O poder destrutivo deste monstro é muito impressionante!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

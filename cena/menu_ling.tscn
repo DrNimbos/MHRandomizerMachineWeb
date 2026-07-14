@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://d3weejvm2cfoo"]
+
+[ext_resource type="Script" uid="uid://c0782xdvrbmx2" path="res://Scripts/menu_ling.gd" id="1_r6lsp"]
+[ext_resource type="Theme" uid="uid://che4u2xnx1qvo" path="res://line_edit_tema.tres" id="2_o4qym"]
+[ext_resource type="Texture2D" uid="uid://cj0bnv2ycgmw5" path="res://Foto/UI/Flag_of_Brazil.png" id="3_otfam"]
+[ext_resource type="Texture2D" uid="uid://ddmvfnccvy30i" path="res://Foto/UI/Flag_of_us.png" id="4_aqbl0"]
+
+[sub_resource type="Curve" id="Curve_yf5fn"]
+
+[sub_resource type="CurveXYZTexture" id="CurveXYZTexture_g4v7s"]
+curve_x = SubResource("Curve_yf5fn")
+
+[node name="Menu_Ling" type="Node2D" unique_id=1605660794]
+script = ExtResource("1_r6lsp")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1667043030]
+position = Vector2(501.49997, 595.99994)
+scale = Vector2(4.9179688, 1344.0001)
+texture = SubResource("CurveXYZTexture_g4v7s")
+
+[node name="Portugues" type="Button" parent="." unique_id=619998778]
+offset_left = 146.0
+offset_top = 371.0
+offset_right = 463.0
+offset_bottom = 595.0
+theme = ExtResource("2_o4qym")
+text = "Portugues Brasileiro"
+icon = ExtResource("3_otfam")
+
+[node name="English" type="Button" parent="." unique_id=639733817]
+offset_left = 632.0
+offset_top = 371.0
+offset_right = 890.0
+offset_bottom = 602.0
+theme = ExtResource("2_o4qym")
+text = "English"
+icon = ExtResource("4_aqbl0")
+
+[connection signal="pressed" from="Portugues" to="." method="_on_portugues_pressed"]
+[connection signal="pressed" from="English" to="." method="_on_english_pressed"]

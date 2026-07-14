@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cewlur6foibio"]
+
+[ext_resource type="Texture2D" uid="uid://cek5mdjft75l5" path="res://Foto/Brute Wyvern/MH3U-Rust_Duramboros_Icon.png" id="1_po7xs"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_o3jhi"]
+
+[resource]
+script = ExtResource("2_o3jhi")
+nome = "Rust Duramboros"
+foto = ExtResource("1_po7xs")
+tipo = 2
+comentario2 = "I've never seen an Rust Duramboros in the wild... Even in all my time researching.. I wonder why.."
+comentario2_br = "Nunca vi um Rust Duramboros na natureza... Mesmo com todo o tempo que passei pesquisando... Fico imaginando o porquê..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

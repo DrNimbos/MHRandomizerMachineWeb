@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dls70msigf6c7"]
+
+[ext_resource type="Texture2D" uid="uid://dnptfkp6hp2fo" path="res://Foto/Elder Dragon/MHRS-Gaismagorm_Icon.png" id="1_j6qer"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_gm8q4"]
+
+[resource]
+script = ExtResource("2_gm8q4")
+nome = "Gaismagorm"
+foto = ExtResource("1_j6qer")
+tipo = 8
+comentario2 = "Symbiotic relationships can be fascinating, can't they?"
+comentario2_br = "Relações simbioticas podem ser fascinantes, não?"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

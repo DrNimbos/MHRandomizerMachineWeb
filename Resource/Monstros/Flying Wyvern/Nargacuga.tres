@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://c5v0pg23y4fpv"]
+
+[ext_resource type="Texture2D" uid="uid://by88tfcerty8x" path="res://Foto/Flying Wyvern/MHFUiOS-Nargacuga_Icon.png" id="1_ljcu2"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_p2qiu"]
+
+[resource]
+script = ExtResource("2_p2qiu")
+nome = "Nargacuga"
+foto = ExtResource("1_ljcu2")
+capturavel = true
+tipo = 3
+comentario2 = "They are very pretty until you are in the middle of the forest in the night, and you can only sense it stalking you... Talking from experience."
+comentario2_br = "Eles são muito bonitos, até você estar no meio da floresta, à noite, e só conseguir sentir que algo está à sua espreita... Falo por experiência própria."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

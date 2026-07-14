@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cpy4qp1ygpxjn"]
+
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_g4xc5"]
+[ext_resource type="Texture2D" uid="uid://wes444dbiecf" path="res://Foto/Leviathan/MHGU-Soulseer_Mizutsune_Icon.png" id="1_s8y31"]
+
+[resource]
+script = ExtResource("1_g4xc5")
+nome = "Soulseer Mizutsune"
+foto = ExtResource("1_s8y31")
+tipo = 12
+comentario2 = "The guild blacksmith that came up with those armor designs did a really GREAT job!"
+comentario2_br = "O ferreiro da guilda que criou aqueles designs de armadura fez um trabalho realmente excelente!"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

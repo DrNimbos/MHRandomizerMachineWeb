@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://ce8lvurhffmw6"]
+
+[ext_resource type="Texture2D" uid="uid://dx5e56gqlblav" path="res://Foto/Elder Dragon/MHFrontier-Inagami_Icon.png" id="1_aj3lh"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_uv4na"]
+
+[resource]
+script = ExtResource("2_uv4na")
+nome = "Inagami"
+foto = ExtResource("1_aj3lh")
+tipo = 8
+comentario2 = "I've visited the Great Bamboo Forest once, it's very pretty.. I didn't get a chance to see a Inagami there tho.."
+comentario2_br = "Já visitei a Grande Floresta de Bambu uma vez, é muito bonita... Mas não tive a chance de ver um Inagami lá."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

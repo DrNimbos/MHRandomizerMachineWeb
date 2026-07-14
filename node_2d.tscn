@@ -1,0 +1,216 @@
+[gd_scene format=3 uid="uid://yk6qc8p63lhj"]
+
+[ext_resource type="Script" uid="uid://dsmeanov63dj2" path="res://node_2d.gd" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://bpi7ltrb0r7f4" path="res://feafaefaef.PNG" id="2_0e48y"]
+[ext_resource type="Texture2D" uid="uid://dd1itnph0egsc" path="res://Sem título.jpeg" id="2_0hol4"]
+[ext_resource type="Theme" uid="uid://dvlde2n34sv1b" path="res://new_theme.tres" id="3_q6r6c"]
+
+[sub_resource type="Animation" id="Animation_0hol4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.652753]
+}
+
+[sub_resource type="Animation" id="Animation_epypp"]
+resource_name = "new_animation"
+length = 10.0
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 5, 10),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [-0.652753, 0.0, 0.652753]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_q6r6c"]
+_data = {
+&"RESET": SubResource("Animation_0hol4"),
+&"new_animation": SubResource("Animation_epypp")
+}
+
+[node name="Node2D" type="Node2D" unique_id=1880751966]
+script = ExtResource("1_wtcfe")
+
+[node name="SemTítulo" type="Sprite2D" parent="." unique_id=1330943389]
+position = Vector2(562, 326)
+scale = Vector2(1.04, 1.04)
+texture = ExtResource("2_0hol4")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=312358244]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(13.4821, 2.98347)
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="." unique_id=2060312279]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 295.0
+offset_top = 496.0
+offset_right = 795.0
+offset_bottom = 635.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 8
+theme = ExtResource("3_q6r6c")
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=1112694538]
+offset_left = 445.0
+offset_top = 406.0
+offset_right = 643.0
+offset_bottom = 459.0
+theme = ExtResource("3_q6r6c")
+text = "Randomizar"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=555713533]
+offset_left = 830.0
+offset_top = 65.0
+offset_right = 1135.0
+offset_bottom = 459.0
+theme = ExtResource("3_q6r6c")
+
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer" unique_id=264638768]
+layout_mode = 2
+theme = ExtResource("3_q6r6c")
+text = "< Estados dos Monstros"
+
+[node name="Lineedit" type="LineEdit" parent="VBoxContainer" unique_id=289760155]
+layout_mode = 2
+placeholder_text = "Adicionar Condição Personalizada"
+
+[node name="TextEdit2" type="TextEdit" parent="VBoxContainer" unique_id=603319764]
+layout_mode = 2
+size_flags_vertical = 3
+editable = false
+context_menu_enabled = false
+emoji_menu_enabled = false
+shortcut_keys_enabled = false
+wrap_mode = 1
+
+[node name="LineEdit" type="LineEdit" parent="VBoxContainer" unique_id=1150120941]
+layout_mode = 2
+placeholder_text = "Remover Condição"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1451825248]
+position = Vector2(474.475, 59)
+rotation = -0.652753
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_0e48y")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite2D" unique_id=1436170384]
+libraries/ = SubResource("AnimationLibrary_q6r6c")
+
+[node name="Label2" type="Label" parent="." unique_id=1533522794]
+offset_left = 43.0
+offset_top = 14.0
+offset_right = 527.0
+offset_bottom = 131.0
+scale = Vector2(1.44755, 1.51429)
+theme_override_font_sizes/font_size = 21
+text = "Randomizador IRADO de 
+  Monster Hunter World"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="." unique_id=1934752204]
+offset_left = 7.0
+offset_top = 129.0
+offset_right = 153.0
+offset_bottom = 643.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("3_q6r6c")
+alignment = 1
+
+[node name="Greatsword" type="CheckBox" parent="VBoxContainer2" unique_id=198890645]
+layout_mode = 2
+text = "Greatsword"
+
+[node name="Longsword" type="CheckBox" parent="VBoxContainer2" unique_id=750083708]
+layout_mode = 2
+text = "Longsword"
+
+[node name="Sword & Shield" type="CheckBox" parent="VBoxContainer2" unique_id=1171290553]
+layout_mode = 2
+text = "Sword & Shield"
+
+[node name="Dual Blades" type="CheckBox" parent="VBoxContainer2" unique_id=1129942660]
+layout_mode = 2
+text = "Dual Blades"
+
+[node name="Hammer" type="CheckBox" parent="VBoxContainer2" unique_id=1984738212]
+layout_mode = 2
+text = "Hammer"
+
+[node name="Hunting Horn" type="CheckBox" parent="VBoxContainer2" unique_id=1007184858]
+layout_mode = 2
+text = "Hunting Horn"
+
+[node name="Lance" type="CheckBox" parent="VBoxContainer2" unique_id=1385186698]
+layout_mode = 2
+text = "Lance"
+
+[node name="Gunlance" type="CheckBox" parent="VBoxContainer2" unique_id=1133056268]
+layout_mode = 2
+text = "Gunlance"
+
+[node name="Switch Axe" type="CheckBox" parent="VBoxContainer2" unique_id=2023833759]
+layout_mode = 2
+text = "Switch Axe"
+
+[node name="Charge Blade" type="CheckBox" parent="VBoxContainer2" unique_id=924309603]
+layout_mode = 2
+text = "Charge Blade"
+
+[node name="Insect Glaive" type="CheckBox" parent="VBoxContainer2" unique_id=1893809537]
+layout_mode = 2
+text = "Insect Glaive"
+
+[node name="Bow" type="CheckBox" parent="VBoxContainer2" unique_id=1072570666]
+layout_mode = 2
+text = "Bow"
+
+[node name="Light Bowgun" type="CheckBox" parent="VBoxContainer2" unique_id=1383349001]
+layout_mode = 2
+text = "Light Bowgun"
+
+[node name="Heavy Bowgun" type="CheckBox" parent="VBoxContainer2" unique_id=1129688922]
+layout_mode = 2
+text = "Heavy Bowgun"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="toggled" from="VBoxContainer/CheckBox" to="." method="_on_check_box_toggled"]
+[connection signal="text_submitted" from="VBoxContainer/Lineedit" to="." method="_on_text_edit_text_submitted"]
+[connection signal="text_submitted" from="VBoxContainer/LineEdit" to="." method="_on_line_edit_text_submitted"]
+[connection signal="toggled" from="VBoxContainer2/Greatsword" to="." method="_on_greatsword_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Longsword" to="." method="_on_longsword_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Sword & Shield" to="." method="_on_sword__shield_toggled"]
+[connection signal="pressed" from="VBoxContainer2/Dual Blades" to="." method="_on_dual_blades_pressed"]
+[connection signal="toggled" from="VBoxContainer2/Dual Blades" to="." method="_on_dual_blades_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Hammer" to="." method="_on_hammer_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Hunting Horn" to="." method="_on_hunting_horn_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Lance" to="." method="_on_lance_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Gunlance" to="." method="_on_gunlance_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Switch Axe" to="." method="_on_switch_axe_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Charge Blade" to="." method="_on_charge_blade_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Insect Glaive" to="." method="_on_insect_glaive_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Bow" to="." method="_on_bow_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Light Bowgun" to="." method="_on_light_bowgun_toggled"]
+[connection signal="toggled" from="VBoxContainer2/Heavy Bowgun" to="." method="_on_heavy_bowgun_toggled"]

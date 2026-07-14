@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dsts4ywx7ouks"]
+
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_6a4tk"]
+[ext_resource type="Texture2D" uid="uid://br4wwetatxon4" path="res://Foto/Carapaceon/MHGU-Rustrazor_Ceanataur_Icon.png" id="1_wtpd7"]
+
+[resource]
+script = ExtResource("1_6a4tk")
+nome = "Rustrazor Ceanatur"
+foto = ExtResource("1_wtpd7")
+capturavel = true
+tipo = 4
+comentario2 = "Try not getting choped like a tomato! Haha!"
+comentario2_br = "Tenta não ser picado que nem um tomate! Haha!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dfbsomk3aabpb"]
+
+[ext_resource type="Texture2D" uid="uid://drs6byq0eioea" path="res://Foto/Elder Dragon/MH3-Ceadeus_Icon.png" id="1_ycr0n"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_q1h2h"]
+
+[resource]
+script = ExtResource("2_q1h2h")
+nome = "Ceadeus"
+foto = ExtResource("1_ycr0n")
+tipo = 8
+comentario2 = "Watching the ocean as seing this Majestic creature resurface was one of the most beautiful things i've ever seen..."
+comentario2_br = "Observar o oceano e ver essa criatura majestosa emergir novamente foi uma das coisas mais lindas que já vi..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

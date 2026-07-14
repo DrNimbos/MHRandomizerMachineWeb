@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://hat48fiix3i6"]
+
+[ext_resource type="Texture2D" uid="uid://c2q4bcxgjftpd" path="res://Foto/Flying Wyvern/MHFrontier-Unknown__28Black_Flying_Wyvern_29_Icon.png" id="1_s5e6m"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_kskew"]
+
+[resource]
+script = ExtResource("2_kskew")
+nome = "Unknown"
+foto = ExtResource("1_s5e6m")
+capturavel = true
+tipo = 3
+comentario2 = "An Amalgam of Flying Wyvern. I don't know even if it's real.."
+comentario2_br = "Uma amálgama de Flying Wyverns. Nem sei se é real..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

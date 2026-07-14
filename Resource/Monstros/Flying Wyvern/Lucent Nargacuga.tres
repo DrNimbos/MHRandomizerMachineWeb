@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cyuj2mo0gjvgq"]
+
+[ext_resource type="Texture2D" uid="uid://b0pc3bjgifey2" path="res://Foto/Flying Wyvern/MH3U-Lucent_Nargacuga_Icon.png" id="1_fkglc"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_drrgt"]
+
+[resource]
+script = ExtResource("2_drrgt")
+nome = "Lucent Nargacuga"
+foto = ExtResource("1_fkglc")
+capturavel = true
+tipo = 3
+comentario2 = "When we thought only Chameleos had the ability to be invisible, this creature was found... Nature is full of surprises.."
+comentario2_br = "Quando pensávamos que apenas o Chameleos tinha a capacidade de ficar invisível, esta criatura foi encontrada... A natureza está cheia de surpresas..."
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

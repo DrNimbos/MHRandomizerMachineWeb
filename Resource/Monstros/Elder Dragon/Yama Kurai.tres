@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bwrmdb0erwgn1"]
+
+[ext_resource type="Texture2D" uid="uid://bm3m74hxgajcb" path="res://Foto/integoracao/MHFrontier-Aurisioth_Icon.png" id="1_arqvi"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_yq622"]
+
+[resource]
+script = ExtResource("2_yq622")
+nome = "Yama Kurai"
+foto = ExtResource("1_arqvi")
+tipo = 8
+comentario2 = "Yama Tsukami... But on FIRE!"
+comentario2_br = "Yama Tsukami... Mas pegando FOGO!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

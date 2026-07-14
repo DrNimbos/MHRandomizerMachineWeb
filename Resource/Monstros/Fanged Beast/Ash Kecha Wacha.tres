@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://c2y3tcu5c417h"]
+
+[ext_resource type="Texture2D" uid="uid://384ka83ccbhj" path="res://Foto/Fanged Beast/MH4U-Ash_Kecha_Wacha_Icon.png" id="1_i7yov"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_fmqkb"]
+
+[resource]
+script = ExtResource("2_fmqkb")
+nome = "Ash Kecha Wacha"
+foto = ExtResource("1_i7yov")
+capturavel = true
+tipo = 9
+comentario2 = "Their fur are so pretty to me!"
+comentario2_br = "A pelagem deles é tão linda para mim!"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

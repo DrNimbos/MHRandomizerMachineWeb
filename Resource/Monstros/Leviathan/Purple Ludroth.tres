@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://d0d3ld53cdnym"]
+
+[ext_resource type="Texture2D" uid="uid://bdehxov6yk0fx" path="res://Foto/Leviathan/MHP3-Purple_Ludroth_Icon.png" id="1_468dc"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_nqxpt"]
+
+[resource]
+script = ExtResource("1_nqxpt")
+nome = "Purple Ludroth"
+foto = ExtResource("1_468dc")
+capturavel = true
+tipo = 12
+comentario2 = "Their colors are so beautiful!"
+comentario2_br = "As cores dele são tão lindas!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

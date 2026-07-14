@@ -1,0 +1,35 @@
+[gd_resource type="Theme" format=3 uid="uid://crj3t23e6xo7a"]
+
+[ext_resource type="FontFile" uid="uid://w7gsgrtrsheh" path="res://CONSOLAB.TTF" id="1_tjw0i"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jgjmk"]
+bg_color = Color(0.32044837, 3.1284987e-06, 1.6725436e-06, 1)
+skew = Vector2(-0.68, 0)
+expand_margin_left = 11.0
+expand_margin_top = 4.0
+expand_margin_right = 7.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yf5fn"]
+bg_color = Color(0, 0, 0, 1)
+skew = Vector2(-0.68, 0)
+expand_margin_left = 11.0
+expand_margin_top = 2.0
+expand_margin_right = 7.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ako2x"]
+bg_color = Color(0.5294118, 0, 0, 1)
+skew = Vector2(-0.68, 0)
+expand_margin_left = 11.0
+expand_margin_top = 4.0
+expand_margin_right = 7.0
+expand_margin_bottom = 2.0
+
+[resource]
+Button/fonts/font = ExtResource("1_tjw0i")
+Button/styles/hover = SubResource("StyleBoxFlat_jgjmk")
+Button/styles/normal = SubResource("StyleBoxFlat_yf5fn")
+Button/styles/pressed = SubResource("StyleBoxFlat_ako2x")
+GridContainer/constants/h_separation = 48
+GridContainer/constants/v_separation = 37
+HBoxContainer/constants/separation = 49

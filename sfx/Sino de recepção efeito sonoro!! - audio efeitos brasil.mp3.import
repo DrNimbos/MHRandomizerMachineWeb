@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://nxynybak2c7f"
+path="res://.godot/imported/Sino de recepção efeito sonoro!! - audio efeitos brasil.mp3-ee56ff1955fbedd4983d8b743b65a9ff.mp3str"
+
+[deps]
+
+source_file="res://sfx/Sino de recepção efeito sonoro!! - audio efeitos brasil.mp3"
+dest_files=["res://.godot/imported/Sino de recepção efeito sonoro!! - audio efeitos brasil.mp3-ee56ff1955fbedd4983d8b743b65a9ff.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

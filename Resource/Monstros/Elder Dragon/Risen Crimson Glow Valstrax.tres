@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dm2xm0eofewfj"]
+
+[ext_resource type="Texture2D" uid="uid://c5egwr55uognf" path="res://Foto/Elder Dragon/MHRS-Risen_Crimson_Glow_Valstrax_Icon.png" id="1_m2phe"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_wna88"]
+
+[resource]
+script = ExtResource("2_wna88")
+nome = "Risen Crimson Glow Valstrax"
+foto = ExtResource("1_m2phe")
+tipo = 8
+comentario2 = "A Valstrax... But even stronger!"
+comentario2_br = "Um Valstrax... Mas ainda mais forte"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

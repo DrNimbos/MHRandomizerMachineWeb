@@ -1,0 +1,1814 @@
+[gd_scene format=3 uid="uid://bvevgr38vdemk"]
+
+[ext_resource type="Script" uid="uid://xwp6fu8rycxu" path="res://Scripts/teste_US.gd" id="1_8uatu"]
+[ext_resource type="Texture2D" uid="uid://cornl7h01ipjp" path="res://Foto/UI/old-parchment-paper-sheet-vintage-aged-or-texture-background-png.png" id="2_wm7tk"]
+[ext_resource type="FontFile" uid="uid://bd2ocjopo3vlc" path="res://SEGOEPR.TTF" id="3_dbg6e"]
+[ext_resource type="Texture2D" uid="uid://hpfdrf4gghix" path="res://Foto/UI/diffuse.jpg33fdfaeb-9b03-41b8-bb29-7ca98d3cba01Large.png" id="4_0p7uc"]
+[ext_resource type="FontFile" uid="uid://cbbwuhgkovktl" path="res://CONSOLAZ.TTF" id="5_fckva"]
+[ext_resource type="Texture2D" uid="uid://cludkclb3xes1" path="res://Foto/UI/settingo.png" id="6_dtaee"]
+[ext_resource type="Texture2D" uid="uid://cv23ot2timi5d" path="res://Foto/Luna/1.png" id="7_ixg56"]
+[ext_resource type="Texture2D" uid="uid://djyvakhfkvfo5" path="res://Foto/Luna/1_b_2.png" id="8_ojavu"]
+[ext_resource type="Texture2D" uid="uid://dwvjv1lfclwa3" path="res://Foto/Luna/2_a.png" id="9_ypvpv"]
+[ext_resource type="Texture2D" uid="uid://bvtjd7wo5vyxq" path="res://Foto/Luna/2.png" id="10_e3hes"]
+[ext_resource type="Texture2D" uid="uid://fu8h2we2mmga" path="res://Foto/Luna/1_b.png" id="11_kaqlb"]
+[ext_resource type="Texture2D" uid="uid://5652ilfihikw" path="res://Foto/Luna/1_c.png" id="12_leham"]
+[ext_resource type="Texture2D" uid="uid://bqho4pfoo5lwg" path="res://Foto/Luna/1_c_2.png" id="13_qfigb"]
+[ext_resource type="Texture2D" uid="uid://dndtarmst5dxu" path="res://Foto/Luna/1_d.png" id="14_m3vat"]
+[ext_resource type="Texture2D" uid="uid://datjmvqdxgmom" path="res://Foto/Luna/1_d_2.png" id="15_yu5pr"]
+[ext_resource type="Texture2D" uid="uid://dtqarcksh3u6r" path="res://Foto/Luna/1_f.png" id="16_1wu1q"]
+[ext_resource type="Texture2D" uid="uid://qelf5iwhtaje" path="res://Foto/Luna/1_e.png" id="17_vlfkx"]
+[ext_resource type="Texture2D" uid="uid://br2sgvabs6fy4" path="res://Foto/UI/dialoguebox_3.png" id="18_iohul"]
+[ext_resource type="Texture2D" uid="uid://bj4eec0ccjvmu" path="res://Foto/UI/dialoguebox.png" id="19_io6w8"]
+[ext_resource type="FontFile" uid="uid://jjjpwm4l1q3t" path="res://CONSOLA.TTF" id="20_tgxhw"]
+[ext_resource type="Script" uid="uid://hqs7iq58bjr" path="res://Scripts/Woo.gd" id="21_704od"]
+[ext_resource type="Texture2D" uid="uid://cg2d0y1fxhnj7" path="res://Foto/UI/beautiful-wood-board-3d-render-for-design-png.png" id="22_0qney"]
+[ext_resource type="Script" uid="uid://cyo7at45tku2r" path="res://cena/Weapon_Handler.gd" id="23_q8wmu"]
+[ext_resource type="Script" uid="uid://cdj5wgq1k53sk" path="res://Scripts/condi_hand_us.gd" id="24_v8ue0"]
+[ext_resource type="Script" uid="uid://ecrse34825k0" path="res://cena/mons_hand.gd" id="25_jqpvk"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="26_vr6r1"]
+[ext_resource type="Resource" uid="uid://xx0254goaoe4" path="res://Resource/Monstros/Flying Wyvern/Basarios.tres" id="27_ocl18"]
+[ext_resource type="Resource" uid="uid://biq0mos15okkd" path="res://Resource/Monstros/Flying Wyvern/Diablos.tres" id="29_fuytu"]
+[ext_resource type="Resource" uid="uid://dc8ias33raalg" path="res://Resource/Monstros/Elder Dragon/Amatsu.tres" id="30_tgxhw"]
+[ext_resource type="Resource" uid="uid://cmm1qkfktjuga" path="res://Resource/Monstros/Flying Wyvern/Gravios.tres" id="32_ou7wb"]
+[ext_resource type="Resource" uid="uid://d2njb6d42b4eu" path="res://Resource/Monstros/Fanged Beast/Apex Arzuros.tres" id="33_704od"]
+[ext_resource type="Resource" uid="uid://b1eevemplk001" path="res://Resource/Monstros/Bird Wyvern/Gypceros.tres" id="33_rat34"]
+[ext_resource type="Resource" uid="uid://b681jv6twwhfn" path="res://Resource/Monstros/Flying Wyvern/Khezu.tres" id="35_p5nfc"]
+[ext_resource type="Resource" uid="uid://dmkeef3m31hsu" path="res://Resource/Monstros/Piscine Wyvern/Plesioth.tres" id="39_43nl3"]
+[ext_resource type="Resource" uid="uid://q8tbbc2th2bv" path="res://Resource/Monstros/Flying Wyvern/Rathalos.tres" id="40_b342f"]
+[ext_resource type="Resource" uid="uid://dr1msfeff61qo" path="res://Resource/Monstros/Flying Wyvern/Rathian.tres" id="41_1w5mw"]
+[ext_resource type="Resource" uid="uid://b6yvmx7fkv2kd" path="res://Resource/Monstros/Elder Dragon/Chameleos.tres" id="42_0qney"]
+[ext_resource type="Resource" uid="uid://dj011ldq8b73s" path="res://Resource/Monstros/Bird Wyvern/Yian Kut Ku.tres" id="43_71gna"]
+[ext_resource type="Resource" uid="uid://dlgdxdmlvxe6e" path="res://Resource/Monstros/Elder Dragon/Risen Chameleos.tres" id="43_q8wmu"]
+[ext_resource type="Resource" uid="uid://cfaselbn4fwre" path="res://Resource/Monstros/Fanged Beast/Rajang.tres" id="44_v2g1o"]
+[ext_resource type="Resource" uid="uid://by7cqnyohg3ie" path="res://Resource/Monstros/Elder Dragon/Crimson Glow Valstrax.tres" id="44_v8ue0"]
+[ext_resource type="Resource" uid="uid://cj0svgl3b4dw1" path="res://Resource/Monstros/Brute Wyvern/Deviljho.tres" id="45_hlcx8"]
+[ext_resource type="Resource" uid="uid://dm2xm0eofewfj" path="res://Resource/Monstros/Elder Dragon/Risen Crimson Glow Valstrax.tres" id="45_jqpvk"]
+[ext_resource type="Resource" uid="uid://cjcbwgt5uvq3g" path="res://Resource/Monstros/Fanged Wyvern/Zinogre.tres" id="46_py50d"]
+[ext_resource type="Resource" uid="uid://b3ewy1gr862fc" path="res://Resource/Monstros/Flying Wyvern/Seregios.tres" id="47_7rwdj"]
+[ext_resource type="Resource" uid="uid://dngn7lhtddaaq" path="res://Resource/Monstros/Snake Wyvern/Tidal Najarala.tres" id="48_41wi3"]
+[ext_resource type="Resource" uid="uid://bjcd0gslgng21" path="res://Resource/Monstros/Flying Wyvern/Apex Diablos.tres" id="48_vr6r1"]
+[ext_resource type="Resource" uid="uid://cdh1k65qk2okc" path="res://Resource/Monstros/Flying Wyvern/Tigrex.tres" id="49_jxsf8"]
+[ext_resource type="Resource" uid="uid://b87l0n0m0reeh" path="res://Resource/Monstros/Leviathan/Agnaktor.tres" id="50_0ffmk"]
+[ext_resource type="Resource" uid="uid://bovt8gl6galqx" path="res://Resource/Monstros/Flying Wyvern/Astalos.tres" id="51_0utvd"]
+[ext_resource type="Resource" uid="uid://dls70msigf6c7" path="res://Resource/Monstros/Elder Dragon/Gaismagorm.tres" id="52_ocl18"]
+[ext_resource type="Resource" uid="uid://tfm0rh88c3ew" path="res://Resource/Monstros/Flying Wyvern/Barioth.tres" id="52_syx5y"]
+[ext_resource type="Resource" uid="uid://bfl32mbmpo04" path="res://Resource/Monstros/Brute Wyvern/Barroth.tres" id="53_oop7e"]
+[ext_resource type="Resource" uid="uid://e2xdnub0fj2f" path="res://Resource/Monstros/Fanged Beast/Blangonga.tres" id="54_a1qdn"]
+[ext_resource type="Resource" uid="uid://b0t641d0dyjcw" path="res://Resource/Monstros/Brute Wyvern/Brachydios.tres" id="55_60bcq"]
+[ext_resource type="Resource" uid="uid://3obs0hn3r6t3" path="res://Resource/Monstros/Fanged Beast/Congalala.tres" id="56_0nef7"]
+[ext_resource type="Resource" uid="uid://b1854bu0qr6b1" path="res://Resource/Monstros/Carapaceon/Daimyo Hermitaur.tres" id="57_ou0w1"]
+[ext_resource type="Resource" uid="uid://3l61aw54vgt" path="res://Resource/Monstros/Brute Wyvern/Duramboros.tres" id="58_fbji2"]
+[ext_resource type="Resource" uid="uid://blcs4si4xhbpw" path="res://Resource/Monstros/Fanged Beast/Gammoth.tres" id="59_5m3rm"]
+[ext_resource type="Resource" uid="uid://bat064l6tx3dr" path="res://Resource/Monstros/Elder Dragon/Shagaru Magala.tres" id="59_ukson"]
+[ext_resource type="Resource" uid="uid://dbf8e8h8vi0h5" path="res://Resource/Monstros/Elder Dragon/Risen Shagaru Magala.tres" id="60_fuytu"]
+[ext_resource type="Resource" uid="uid://bbql5hn1peoq1" path="res://Resource/Monstros/Brute Wyvern/Glavenus.tres" id="60_kh5qe"]
+[ext_resource type="Resource" uid="uid://b7id73ouxrgn" path="res://Resource/Monstros/Demi Elder/Gore Magala.tres" id="61_bpmno"]
+[ext_resource type="Resource" uid="uid://dnnvj103n0uyt" path="res://Resource/Monstros/Fanged Beast/Kecha Wacha.tres" id="62_dr8kr"]
+[ext_resource type="Resource" uid="uid://cp8d2qk4lygf5" path="res://Resource/Monstros/Leviathan/Lagiacrus.tres" id="63_40qak"]
+[ext_resource type="Resource" uid="uid://caqe5d6nuecon" path="res://Resource/Monstros/Elder Dragon/Kushala Daora.tres" id="64_b5hjm"]
+[ext_resource type="Resource" uid="uid://dmaitdiarglrn" path="res://Resource/Monstros/Piscine Wyvern/Lavasioth.tres" id="64_cehsk"]
+[ext_resource type="Resource" uid="uid://d4c5bqjel1ixe" path="res://Resource/Monstros/Bird Wyvern/Malfestio.tres" id="65_a12m4"]
+[ext_resource type="Resource" uid="uid://h1gqaogqgue0" path="res://Resource/Monstros/Elder Dragon/Risen Kushala Daora.tres" id="65_m4kxk"]
+[ext_resource type="Resource" uid="uid://b6i7rbtsbpdec" path="res://Resource/Monstros/Leviathan/Mizutsune.tres" id="66_xul0p"]
+[ext_resource type="Resource" uid="uid://dlesbo25hb6ci" path="res://Resource/Monstros/Snake Wyvern/Najarala.tres" id="67_0kcal"]
+[ext_resource type="Resource" uid="uid://c5v0pg23y4fpv" path="res://Resource/Monstros/Flying Wyvern/Nargacuga.tres" id="68_fb2gw"]
+[ext_resource type="Resource" uid="uid://hcqvx6dbil1q" path="res://Resource/Monstros/Fanged Wyvern/Magnamalo.tres" id="68_ou7wb"]
+[ext_resource type="Resource" uid="uid://b3cy5gqi7tqlu" path="res://Resource/Monstros/Temnoceran/Nerscylla.tres" id="69_twu6w"]
+[ext_resource type="Resource" uid="uid://b6pfjpsxp54uf" path="res://Resource/Monstros/Leviathan/Nibelsnarf.tres" id="70_atrvl"]
+[ext_resource type="Resource" uid="uid://daiv8d7ac6ehb" path="res://Resource/Monstros/Elder Dragon/Malzeno.tres" id="70_rat34"]
+[ext_resource type="Resource" uid="uid://djn6xay3e1gi" path="res://Resource/Monstros/Elder Dragon/Primordial Malzeno.tres" id="71_aftro"]
+[ext_resource type="Resource" uid="uid://bndfamqi3q3jg" path="res://Resource/Monstros/Fanged Beast/Furios Rajang.tres" id="71_yjpk0"]
+[ext_resource type="Resource" uid="uid://cc2gmtkkwrh38" path="res://Resource/Monstros/Flying Wyvern/Silver Rathalos.tres" id="72_phmt0"]
+[ext_resource type="Resource" uid="uid://f5dkvcemvvv7" path="res://Resource/Monstros/Leviathan/Apex Mizutsune.tres" id="73_p5nfc"]
+[ext_resource type="Resource" uid="uid://df5migcnyewtn" path="res://Resource/Monstros/Flying Wyvern/Gold Rathian.tres" id="73_qqq76"]
+[ext_resource type="Resource" uid="uid://b01yjaee2plyd" path="res://Resource/Monstros/Leviathan/Violet Mizutsune.tres" id="74_dwx6t"]
+[ext_resource type="Resource" uid="uid://cgwrsx8vrw78n" path="res://Resource/Monstros/Leviathan/Royal Ludroth.tres" id="74_ndmtj"]
+[ext_resource type="Resource" uid="uid://bhusi6bdpb55h" path="res://Resource/Monstros/Neopteron/Seltas Queen.tres" id="75_dbcwv"]
+[ext_resource type="Resource" uid="uid://cyuj2mo0gjvgq" path="res://Resource/Monstros/Flying Wyvern/Lucent Nargacuga.tres" id="76_43y4r"]
+[ext_resource type="Resource" uid="uid://dmlq0ihumpjel" path="res://Resource/Monstros/Carapaceon/Shogun Ceanataur.tres" id="76_h1mu4"]
+[ext_resource type="Resource" uid="uid://crif6i52yrbmx" path="res://Resource/Monstros/Amphibian/Tetsucabra.tres" id="77_183ut"]
+[ext_resource type="Resource" uid="uid://bprg0lla56kk1" path="res://Resource/Monstros/Brute Wyvern/Uragaan.tres" id="78_qgq45"]
+[ext_resource type="Resource" uid="uid://q1nc52csb1ob" path="res://Resource/Monstros/Bird Wyvern/Yian Garuga.tres" id="79_r02pi"]
+[ext_resource type="Resource" uid="uid://c8ijrtmmqxv7o" path="res://Resource/Monstros/Amphibian/Zamtrios.tres" id="80_2op02"]
+[ext_resource type="Resource" uid="uid://pikxa6baviuu" path="res://Resource/Monstros/Bird Wyvern/Aknosom.tres" id="81_e1cfs"]
+[ext_resource type="Resource" uid="uid://dws25dnuhyv3f" path="res://Resource/Monstros/Leviathan/Almudron.tres" id="82_pv3l7"]
+[ext_resource type="Resource" uid="uid://bs5rycqg0nl7e" path="res://Resource/Monstros/Leviathan/Magma Almudron.tres" id="83_cm3hc"]
+[ext_resource type="Resource" uid="uid://bmwrbxispxnf1" path="res://Resource/Monstros/Flying Wyvern/Apex Rathalos.tres" id="84_30v2l"]
+[ext_resource type="Resource" uid="uid://br47yfrsb72d2" path="res://Resource/Monstros/Brute Wyvern/Anjanath.tres" id="84_t63sx"]
+[ext_resource type="Resource" uid="uid://cn5x808rp6ta2" path="res://Resource/Monstros/Fanged Beast/Arzuros.tres" id="85_8br1b"]
+[ext_resource type="Resource" uid="uid://cyo6e0f7y5pa5" path="res://Resource/Monstros/Flying Wyvern/Bazelgeuse.tres" id="86_2egqa"]
+[ext_resource type="Resource" uid="uid://cg3o3bvpeeg4r" path="res://Resource/Monstros/Flying Wyvern/Apex Rathian.tres" id="86_43nl3"]
+[ext_resource type="Resource" uid="uid://bapeu7dyvvgby" path="res://Resource/Monstros/Flying Wyvern/Seething Bazelgeuse.tres" id="87_fwxtp"]
+[ext_resource type="Resource" uid="uid://d2ih6sp2b15j4" path="res://Resource/Monstros/Fanged Beast/Bishaten.tres" id="88_l2m8u"]
+[ext_resource type="Resource" uid="uid://c5iio655nhoe3" path="res://Resource/Monstros/Fanged Beast/Blood Orange Bishaten.tres" id="89_h5rfp"]
+[ext_resource type="Resource" uid="uid://dhfxkfxrfhald" path="res://Resource/Monstros/Flying Wyvern/Espinas.tres" id="90_al3sc"]
+[ext_resource type="Resource" uid="uid://c7l3u5jlrppm5" path="res://Resource/Monstros/Flying Wyvern/Flaming Espinas.tres" id="91_valh5"]
+[ext_resource type="Resource" uid="uid://cbrag1iogycf4" path="res://Resource/Monstros/Fanged Beast/Garangolm.tres" id="92_re5kg"]
+[ext_resource type="Resource" uid="uid://n2ys3ggrok4f" path="res://Resource/Monstros/Fanged Beast/Goss Harag.tres" id="93_6vf1a"]
+[ext_resource type="Resource" uid="uid://ba2ojsxdjf4x4" path="res://Resource/Monstros/Elder Dragon/Teostra.tres" id="93_b342f"]
+[ext_resource type="Resource" uid="uid://b64xkpbw3r75a" path="res://Resource/Monstros/Elder Dragon/Risen Teostra.tres" id="94_1w5mw"]
+[ext_resource type="Resource" uid="uid://buot3re0l7ks" path="res://Resource/Monstros/Bird Wyvern/Great Baggi.tres" id="94_5fx0e"]
+[ext_resource type="Resource" uid="uid://coo3mew16xo8v" path="res://Resource/Monstros/Bird Wyvern/Great Izuchi.tres" id="95_pdgkf"]
+[ext_resource type="Resource" uid="uid://d0488qryf381r" path="res://Resource/Monstros/Bird Wyvern/Great Wroggi.tres" id="96_i11nf"]
+[ext_resource type="Resource" uid="uid://dupvcp3i538rh" path="res://Resource/Monstros/Elder Dragon/Thunder Serpent Narwa.tres" id="96_s3rbg"]
+[ext_resource type="Resource" uid="uid://bf5mhifa8lndp" path="res://Resource/Monstros/Elder Dragon/Narwa the Allmother.tres" id="97_71gna"]
+[ext_resource type="Resource" uid="uid://p2gtpooiidsb" path="res://Resource/Monstros/Piscine Wyvern/Jyuratodos.tres" id="97_fudlt"]
+[ext_resource type="Resource" uid="uid://cgwywkr8r34a3" path="res://Resource/Monstros/Bird Wyvern/Kulu Ya Ku.tres" id="98_7m6l0"]
+[ext_resource type="Resource" uid="uid://bjvi8swxtov1i" path="res://Resource/Monstros/Fanged Beast/Lagombi.tres" id="99_m7tcb"]
+[ext_resource type="Resource" uid="uid://cafcpmek3ke1p" path="res://Resource/Monstros/Fanged Wyvern/Lunagaron.tres" id="100_0nw87"]
+[ext_resource type="Resource" uid="uid://cdlliqj42s8vx" path="res://Resource/Monstros/Elder Dragon/Velkhana.tres" id="100_v2g1o"]
+[ext_resource type="Resource" uid="uid://lcq8us3q5qyp" path="res://Resource/Monstros/Fanged Wyvern/Scorned Magnamalo.tres" id="101_i6ekq"]
+[ext_resource type="Resource" uid="uid://utndihqrc62s" path="res://Resource/Monstros/Bird Wyvern/Pukei-Pukei.tres" id="102_6jmc3"]
+[ext_resource type="Resource" uid="uid://syiu73abs8ik" path="res://Resource/Monstros/Elder Dragon/Wind Serpent Ibushi.tres" id="102_hlcx8"]
+[ext_resource type="Resource" uid="uid://db1exbgajgypf" path="res://Resource/Monstros/Temnoceran/Rakna-Kadaki.tres" id="103_8xssm"]
+[ext_resource type="Resource" uid="uid://ct2fjj68fn2o7" path="res://Resource/Monstros/Temnoceran/Pyre Rakna-Kadaki.tres" id="104_6k54s"]
+[ext_resource type="Resource" uid="uid://b2iyac5s0gcpm" path="res://Resource/Monstros/Fanged Wyvern/Apex Zinogre.tres" id="104_py50d"]
+[ext_resource type="Resource" uid="uid://cipb5aqx2nqos" path="res://Resource/Monstros/Leviathan/Somnacanth.tres" id="105_gkxxi"]
+[ext_resource type="Resource" uid="uid://02sir3oqeutf" path="res://Resource/Monstros/Leviathan/Aurora Somnacanth.tres" id="106_iojc1"]
+[ext_resource type="Resource" uid="uid://bsgym6uncx5p2" path="res://Resource/Monstros/Amphibian/Tetranodon.tres" id="107_dh7gn"]
+[ext_resource type="Resource" uid="uid://d0wf1v832ej2n" path="res://Resource/Monstros/Fanged Wyvern/Tobi-Kadachi.tres" id="108_h84tn"]
+[ext_resource type="Resource" uid="uid://c6tpttbqff1vs" path="res://Resource/Monstros/Fanged Beast/Volvidon.tres" id="109_oald3"]
+[ext_resource type="Resource" uid="uid://co4p5664tyal" path="res://Resource/Monstros/Demi Elder/Chaotic Gore Magala.tres" id="110_xnd58"]
+[ext_resource type="Resource" uid="uid://cnjieggxjac7c" path="res://Resource/Monstros/Fanged Beast/Redhelm Arzuros.tres" id="111_ed07p"]
+[ext_resource type="Resource" uid="uid://cb6evciw0mi8y" path="res://Resource/Monstros/Carapaceon/Stonefist Hermitaur.tres" id="112_v64t6"]
+[ext_resource type="Resource" uid="uid://b3wru8is8p7e2" path="res://Resource/Monstros/Brute Wyvern/Hellblade Glavenus.tres" id="113_cgqbd"]
+[ext_resource type="Resource" uid="uid://dc041b2wunxb8" path="res://Resource/Monstros/Fanged Beast/Snowbaron Lagombi.tres" id="114_pw8bl"]
+[ext_resource type="Resource" uid="uid://cgumc3kf31lnm" path="res://Resource/Monstros/Flying Wyvern/Silverwind Nargacuga.tres" id="115_0mnxl"]
+[ext_resource type="Resource" uid="uid://bipebgr5scpmo" path="res://Resource/Monstros/Flying Wyvern/Dreadking Rathalos.tres" id="116_xfetk"]
+[ext_resource type="Resource" uid="uid://5pjuvcokf0ju" path="res://Resource/Monstros/Flying Wyvern/Dreadqueen Rathian.tres" id="117_qdgt3"]
+[ext_resource type="Resource" uid="uid://bfyqwlhwatfjf" path="res://Resource/Monstros/Amphibian/Drilltusk Testucabra.tres" id="118_pm3fb"]
+[ext_resource type="Resource" uid="uid://cov2et5lyvcr0" path="res://Resource/Monstros/Flying Wyvern/Grimclaw Tigrex.tres" id="119_v0e7v"]
+[ext_resource type="Resource" uid="uid://ckvnniwqhu7t" path="res://Resource/Monstros/Brute Wyvern/Crystalbeard Uragaan.tres" id="120_jok3k"]
+[ext_resource type="Resource" uid="uid://dua86o5ofl8dk" path="res://Resource/Monstros/Bird Wyvern/Deadeye Yian Garuga.tres" id="121_0ogq3"]
+[ext_resource type="Resource" uid="uid://cyvb8c0sta8my" path="res://Resource/Monstros/Fanged Wyvern/Thunderlord Zinogre.tres" id="122_bcrbs"]
+[ext_resource type="Resource" uid="uid://16sh88c4oqt" path="res://Resource/Monstros/Flying Wyvern/Boltreaver Astalos.tres" id="123_hglju"]
+[ext_resource type="Resource" uid="uid://cg61e8c60kilw" path="res://Resource/Monstros/Flying Wyvern/Bloodbath Diablos.tres" id="124_sycre"]
+[ext_resource type="Resource" uid="uid://bfxyxajcbmhmp" path="res://Resource/Monstros/Fanged Beast/Elderfrost Gammoth.tres" id="125_fyhds"]
+[ext_resource type="Resource" uid="uid://bm1irittah5kd" path="res://Resource/Monstros/Bird Wyvern/Nightcloak Malfestio.tres" id="126_08ydq"]
+[ext_resource type="Resource" uid="uid://cpy4qp1ygpxjn" path="res://Resource/Monstros/Leviathan/Soulseer Mizutsune.tres" id="127_8e4wt"]
+[ext_resource type="Resource" uid="uid://dsts4ywx7ouks" path="res://Resource/Monstros/Carapaceon/Rustrazor Ceanataur.tres" id="128_chcam"]
+[ext_resource type="Resource" uid="uid://cbrsuev2pr4bv" path="res://Resource/Monstros/Brute Wyvern/Starving Deviljho.tres" id="129_4f31o"]
+[ext_resource type="Resource" uid="uid://cwe1ptht4ou5q" path="res://Resource/Monstros/Fanged Wyvern/Howling Zinogre.tres" id="130_yg3qd"]
+[ext_resource type="Resource" uid="uid://bgoyyccn1fgt4" path="res://Resource/Monstros/Flying Wyvern/Thirsty Pariapuria.tres" id="131_proa2"]
+[ext_resource type="Resource" uid="uid://dakxvlg22ijxn" path="res://Resource/Monstros/Flying Wyvern/Zerureusu.tres" id="132_06b01"]
+[ext_resource type="Resource" uid="uid://da0h34ck37wrf" path="res://Resource/Monstros/Flying Wyvern/Blinking Nargacuga.tres" id="133_w80rv"]
+[ext_resource type="Resource" uid="uid://dw0sih272ivr0" path="res://Resource/Monstros/Flying Wyvern/Mysterious Mi Ru.tres" id="134_ex6dh"]
+[ext_resource type="Resource" uid="uid://bfp8ujing4lnb" path="res://Resource/Monstros/Elder Dragon/Ruler Guanzorumu.tres" id="135_uwrat"]
+[ext_resource type="Resource" uid="uid://cr0d7k1n6takf" path="res://Resource/Monstros/Elder Dragon/Burning Freezing Eruzerion.tres" id="136_1mm2f"]
+[ext_resource type="Resource" uid="uid://6gr8fkjcxje" path="res://Resource/Monstros/Elder Dragon/Arrogant Duremudira.tres" id="137_v5fu2"]
+[ext_resource type="Resource" uid="uid://1vj6uxnpwrfy" path="res://Resource/Monstros/Flying Wyvern/Bombardier Bogadorumu.tres" id="138_72ngh"]
+[ext_resource type="Resource" uid="uid://dvuj18blnsmx2" path="res://Resource/Monstros/Bird Wyvern/Zenith Hypnocatrice.tres" id="139_k8pi2"]
+[ext_resource type="Resource" uid="uid://dhas5803puwfc" path="res://Resource/Monstros/Bird Wyvern/Zenith Toridcless.tres" id="140_uqr4b"]
+[ext_resource type="Resource" uid="uid://h4sylrxpxuts" path="res://Resource/Monstros/Brute Wyvern/Zenith Gasurabazura.tres" id="141_elqvj"]
+[ext_resource type="Resource" uid="uid://cvif704ds7dkm" path="res://Resource/Monstros/Brute Wyvern/Zenith Giaorugu.tres" id="142_reowk"]
+[ext_resource type="Resource" uid="uid://b7snm1yja5r1a" path="res://Resource/Monstros/Carapaceon/Zenith Akura Vashimu.tres" id="143_1x4nu"]
+[ext_resource type="Resource" uid="uid://dicl65udnfihs" path="res://Resource/Monstros/Carapaceon/Zenith Daimyo Hermitaur.tres" id="144_6dx4q"]
+[ext_resource type="Resource" uid="uid://cc8wt57v55ry" path="res://Resource/Monstros/Carapaceon/Zenith Taikun Zamuza.tres" id="145_0rpn3"]
+[ext_resource type="Resource" uid="uid://cpylfl4lbnlms" path="res://Resource/Monstros/Elder Dragon/Zenith Harudomerugu.tres" id="146_uak3t"]
+[ext_resource type="Resource" uid="uid://ckgaxhidyy341" path="res://Resource/Monstros/Elder Dragon/Zenith Inagami.tres" id="147_en7gj"]
+[ext_resource type="Resource" uid="uid://d115mer18s6g0" path="res://Resource/Monstros/Elder Dragon/Zenith Rukodiora.tres" id="148_4g3tl"]
+[ext_resource type="Resource" uid="uid://duk02ovesm7an" path="res://Resource/Monstros/Flying Wyvern/Zenith Anorupatisu.tres" id="149_2t75v"]
+[ext_resource type="Resource" uid="uid://bcm5y5c4tfr7b" path="res://Resource/Monstros/Flying Wyvern/Zenith Doragyurosu.tres" id="150_j55b0"]
+[ext_resource type="Resource" uid="uid://dogoikdow6rih" path="res://Resource/Monstros/Flying Wyvern/Zenith Espinas.tres" id="151_mfkt4"]
+[ext_resource type="Resource" uid="uid://b60quj3dnsj6f" path="res://Resource/Monstros/Flying Wyvern/Zenith Gravios.tres" id="152_fdaiv"]
+[ext_resource type="Resource" uid="uid://cwy2nebqeq7ej" path="res://Resource/Monstros/Flying Wyvern/Zenith Hyujikiki.tres" id="153_qs0ny"]
+[ext_resource type="Resource" uid="uid://04kwg3f5ltgr" path="res://Resource/Monstros/Flying Wyvern/Zenith Khezu.tres" id="154_yd6ro"]
+[ext_resource type="Resource" uid="uid://d38qaabsaus30" path="res://Resource/Monstros/Flying Wyvern/Zenith Rathalos.tres" id="155_27xkr"]
+[ext_resource type="Resource" uid="uid://d1dynx4odvjnk" path="res://Resource/Monstros/Flying Wyvern/Zenith Tigrex.tres" id="156_mi2wi"]
+[ext_resource type="Resource" uid="uid://ceh5hlgc6ovui" path="res://Resource/Monstros/Piscine Wyvern/Zenith Plesioth.tres" id="157_uw82s"]
+[ext_resource type="Texture2D" uid="uid://djkxa0plf3hdh" path="res://Foto/UI/son2.png" id="158_otpye"]
+[ext_resource type="Texture2D" uid="uid://3ey3u3e2lfpd" path="res://Foto/UI/son1.png" id="159_qvcck"]
+[ext_resource type="Texture2D" uid="uid://b18pqvm8u3ym7" path="res://Foto/UI/sucess2.png" id="160_gi1ip"]
+[ext_resource type="Texture2D" uid="uid://5qsx3f6d4sf7" path="res://Foto/UI/sucess1.ong.png" id="161_e2typ"]
+[ext_resource type="Texture2D" uid="uid://dw2e22tvraxpa" path="res://Foto/UI/brown-wood-textured-background-with-design-space_53876-160425.png" id="162_ryyk0"]
+[ext_resource type="Theme" uid="uid://che4u2xnx1qvo" path="res://line_edit_tema.tres" id="163_0r58w"]
+[ext_resource type="Script" uid="uid://d4i7fmt4ajkbv" path="res://Scripts/webload.gd" id="164_fipjf"]
+[ext_resource type="Texture2D" uid="uid://dh5oj4024df7f" path="res://Foto/UI/Old-Paper.png" id="165_j3fg0"]
+[ext_resource type="Theme" uid="uid://c6g42r6eqjx8u" path="res://temas/checkbox.tres" id="166_cxqg1"]
+[ext_resource type="Script" uid="uid://by1ad640ciloo" path="res://Scripts/ui_handler.gd" id="167_vwn1f"]
+[ext_resource type="StyleBox" uid="uid://de0x1tbe6ch8j" path="res://coditionbutton.tres" id="168_bvmom"]
+[ext_resource type="Theme" uid="uid://dpaw6xfjoeq1n" path="res://cross.tres" id="169_wrpld"]
+[ext_resource type="Texture2D" uid="uid://bcuseoietm8j" path="res://Foto/UI/cross.png" id="170_k2pgs"]
+[ext_resource type="FontFile" uid="uid://b34isdjuniwb3" path="res://MONSTER HUNTER TYPE 2.TTF" id="171_8qvai"]
+[ext_resource type="Texture2D" uid="uid://d2d1pl38mvfwt" path="res://Foto/UI/Tigrex.png" id="172_lu81n"]
+[ext_resource type="FontFile" uid="uid://feic6bscqwxn" path="res://SUPERNATURAL_KNIGHT.TTF" id="173_56qjo"]
+[ext_resource type="Texture2D" uid="uid://bchsuyeghuavg" path="res://Foto/UI/luz.png" id="174_cpvbb"]
+[ext_resource type="AudioStream" uid="uid://nxynybak2c7f" path="res://sfx/Sino de recepção efeito sonoro!! - audio efeitos brasil.mp3" id="175_2474b"]
+[ext_resource type="AudioStream" uid="uid://bntt6mhkvf5f0" path="res://sfx/Open Book Sound Effect - Free Audio Zone.mp3" id="176_r48lb"]
+[ext_resource type="AudioStream" uid="uid://bnn7f3pcbs2ue" path="res://sfx/Page Turn Sound Effect! Flip Sound Effect! - Mathew Aleman Lim.mp3" id="177_cw05q"]
+[ext_resource type="AudioStream" uid="uid://b7dgmgbtkeheo" path="res://sfx/Squeaky Toy Sound Effect - Sound Effects Library.mp3" id="178_d7xky"]
+[ext_resource type="AudioStream" uid="uid://dnv4u3t2v4w2w" path="res://sfx/Deltarune Chapter 5 - Pink Voice - Mister Fister.mp3" id="179_qu07t"]
+[ext_resource type="AudioStream" uid="uid://yo48m36lu24t" path="res://sfx/Gas Decompression Sound Effect ｜ No Copyright - NEZAR Free Sound FX.mp3" id="180_3dijw"]
+[ext_resource type="AudioStream" uid="uid://dhc2x80p0xkga" path="res://sfx/Scrape Slide Wood - Sound Effect SFX - Wood Sound Effects.mp3" id="181_8imrk"]
+[ext_resource type="AudioStream" uid="uid://nlaatjvm0nc8" path="res://sfx/Monster Hunter Ultimate Quest Start Horn - irononreverse.mp3" id="182_xcbb3"]
+[ext_resource type="AudioStream" uid="uid://bgy27j40l5suo" path="res://sfx/Gears 1 sound effects - be professional.mp3" id="183_a7ib5"]
+
+[sub_resource type="Animation" id="Animation_skvas"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Background:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1000, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_igt2p"]
+resource_name = "roll"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Background:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1000, 0), Vector2(0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_t7syd"]
+_data = {
+&"RESET": SubResource("Animation_skvas"),
+&"roll": SubResource("Animation_igt2p")
+}
+
+[sub_resource type="Gradient" id="Gradient_n15w2"]
+offsets = PackedFloat32Array(0, 0.98418975)
+colors = PackedColorArray(0.1728327, 0.17283267, 0.17283267, 1, 0.32915837, 0.3291584, 0.3291584, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_57qmd"]
+gradient = SubResource("Gradient_n15w2")
+
+[sub_resource type="Gradient" id="Gradient_orxhv"]
+offsets = PackedFloat32Array(0.0039525693, 1)
+colors = PackedColorArray(0.16116881, 0.034234043, 2.4065375e-08, 1, 0.16116881, 0.034234043, 2.4065375e-08, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_4djin"]
+gradient = SubResource("Gradient_orxhv")
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 15.0,
+"texture": ExtResource("7_ixg56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ojavu")
+}, {
+"duration": 25.0,
+"texture": ExtResource("7_ixg56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ojavu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ixg56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ixg56")
+}],
+"loop": 1,
+"name": &"0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.5,
+"texture": ExtResource("9_ypvpv")
+}, {
+"duration": 0.5,
+"texture": ExtResource("10_e3hes")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.5,
+"texture": ExtResource("11_kaqlb")
+}, {
+"duration": 0.5,
+"texture": ExtResource("7_ixg56")
+}],
+"loop": 1,
+"name": &"2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.5,
+"texture": ExtResource("12_leham")
+}, {
+"duration": 0.5,
+"texture": ExtResource("13_qfigb")
+}],
+"loop": 1,
+"name": &"3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.5,
+"texture": ExtResource("14_m3vat")
+}, {
+"duration": 0.5,
+"texture": ExtResource("15_yu5pr")
+}],
+"loop": 1,
+"name": &"4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_1wu1q")
+}],
+"loop": 1,
+"name": &"5",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_vlfkx")
+}],
+"loop": 1,
+"name": &"6",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yf5fn"]
+animations = [{
+"frames": [{
+"duration": 1.5,
+"texture": ExtResource("18_iohul")
+}, {
+"duration": 1.5,
+"texture": ExtResource("19_io6w8")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_sttri"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Luna:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_f6gl0"]
+resource_name = "idle"
+length = 10.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Luna:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 4.99, 10),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1.025, 1.025), Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_dxx1t"]
+_data = {
+&"RESET": SubResource("Animation_sttri"),
+&"idle": SubResource("Animation_f6gl0")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
+size = Vector2(141, 187)
+
+[sub_resource type="Animation" id="Animation_2sp1g"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("condicoes:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1114, -777)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("monsti:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1149, 482)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("weapon:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1219, 535)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Luna/AnimatedSprite2D:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-57.650574, -56.656616)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Settings:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(657, -211)]
+}
+
+[sub_resource type="Animation" id="Animation_mp6ea"]
+resource_name = "condi_list_close"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("condicoes:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(244, 0), Vector2(240, -776)]
+}
+
+[sub_resource type="Animation" id="Animation_bf8qv"]
+resource_name = "condi_list_open"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("condicoes:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(240, -776), Vector2(244, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_4o67m"]
+resource_name = "jump"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Luna/AnimatedSprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.14, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-57.650574, -56.656616), Vector2(-57.651, -65.032), Vector2(-57.650574, -56.656616)]
+}
+
+[sub_resource type="Animation" id="Animation_6prfx"]
+resource_name = "monst_list_close"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("monsti:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-2, 1037), Vector2(-811, 1029)]
+}
+
+[sub_resource type="Animation" id="Animation_bexg2"]
+resource_name = "monst_list_open"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("monsti:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-811, 1029), Vector2(-2, 1037)]
+}
+
+[sub_resource type="Animation" id="Animation_aq7di"]
+resource_name = "monst_list_stay"
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("monsti:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-811, 1029)]
+}
+
+[sub_resource type="Animation" id="Animation_bjt3i"]
+resource_name = "setting_close"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Settings:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(657, 7), Vector2(657, -211)]
+}
+
+[sub_resource type="Animation" id="Animation_rjcoi"]
+resource_name = "setting_open"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Settings:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(657, -211), Vector2(657, 7)]
+}
+
+[sub_resource type="Animation" id="Animation_mxcir"]
+resource_name = "weapon_list_close"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("weapon:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 2.2973967),
+"update": 0,
+"values": [Vector2(631, 825), Vector2(1135, 894)]
+}
+
+[sub_resource type="Animation" id="Animation_1lik4"]
+resource_name = "weapon_list_open"
+length = 0.23333333
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("weapon:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 78.26848),
+"update": 0,
+"values": [Vector2(1135, 894), Vector2(631, 825)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_mp6ea"]
+_data = {
+&"RESET": SubResource("Animation_2sp1g"),
+&"condi_list_close": SubResource("Animation_mp6ea"),
+&"condi_list_open": SubResource("Animation_bf8qv"),
+&"jump": SubResource("Animation_4o67m"),
+&"monst_list_close": SubResource("Animation_6prfx"),
+&"monst_list_open": SubResource("Animation_bexg2"),
+&"monst_list_stay": SubResource("Animation_aq7di"),
+&"setting_close": SubResource("Animation_bjt3i"),
+&"setting_open": SubResource("Animation_rjcoi"),
+&"weapon_list_close": SubResource("Animation_mxcir"),
+&"weapon_list_open": SubResource("Animation_1lik4")
+}
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_57qmd"]
+animations = [{
+"frames": [{
+"duration": 1.5,
+"texture": ExtResource("158_otpye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_qvcck")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("159_qvcck")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fcnqv"]
+radius = 16.0
+height = 60.0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rlq7g"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sklv6"]
+animations = [{
+"frames": [{
+"duration": 1.5,
+"texture": ExtResource("160_gi1ip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_e2typ")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_rlq7g")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r2toi"]
+animations = [{
+"frames": [{
+"duration": 1.5,
+"texture": ExtResource("160_gi1ip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_e2typ")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("161_e2typ")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_54jr1"]
+animations = [{
+"frames": [{
+"duration": 1.5,
+"texture": SubResource("CompressedTexture2D_rlq7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_gi1ip")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("161_e2typ")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t7syd"]
+bg_color = Color(0.32156864, 0.5176471, 0, 0.36078432)
+skew = Vector2(0, -0.075)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.93487155, 0.79262584, 7.70092e-07, 1)
+border_blend = true
+expand_margin_left = 4.0
+expand_margin_top = 6.0
+expand_margin_right = 4.0
+expand_margin_bottom = 6.0
+shadow_size = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h28hk"]
+bg_color = Color(0.3205807, 0.5166438, 1.1551381e-06, 1)
+skew = Vector2(0, -0.075)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.93487155, 0.79262584, 7.70092e-07, 1)
+border_blend = true
+expand_margin_left = 4.0
+expand_margin_top = 6.0
+expand_margin_right = 4.0
+expand_margin_bottom = 6.0
+shadow_size = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hppra"]
+bg_color = Color(0.32156864, 0.5176471, 0, 0.36078432)
+skew = Vector2(0, -0.075)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.93487155, 0.79262584, 7.70092e-07, 1)
+border_blend = true
+expand_margin_left = 4.0
+expand_margin_top = 6.0
+expand_margin_right = 4.0
+expand_margin_bottom = 6.0
+shadow_size = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ewjco"]
+content_margin_left = 19.0
+content_margin_right = 29.0
+bg_color = Color(0.4198599, 0.001396273, 0.06632584, 1)
+skew = Vector2(-0.455, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1k54n"]
+content_margin_left = 19.0
+content_margin_right = 29.0
+bg_color = Color(0.667072, 0.0048906617, 0.12965026, 1)
+skew = Vector2(-0.455, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_om4lx"]
+content_margin_left = 19.0
+content_margin_right = 29.0
+bg_color = Color(0.9991651, 0.34894764, 0.36294112, 1)
+skew = Vector2(-0.455, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+border_blend = true
+
+[sub_resource type="Theme" id="Theme_h28hk"]
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/constants/outline_size = 3
+Button/font_sizes/font_size = 28
+Button/fonts/font = ExtResource("171_8qvai")
+Button/icons/icon = ExtResource("172_lu81n")
+Button/styles/hover = SubResource("StyleBoxFlat_ewjco")
+Button/styles/normal = SubResource("StyleBoxFlat_1k54n")
+Button/styles/pressed = SubResource("StyleBoxFlat_om4lx")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mjcor"]
+content_margin_bottom = 6.0
+bg_color = Color(1.5233382e-05, 0.12793413, 0.42097256, 1)
+skew = Vector2(0.565, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+expand_margin_left = 20.0
+expand_margin_top = 13.0
+expand_margin_right = 15.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_la6fp"]
+content_margin_bottom = 6.0
+bg_color = Color(0, 0.23137255, 0.6901961, 1)
+skew = Vector2(0.565, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+expand_margin_left = 20.0
+expand_margin_top = 13.0
+expand_margin_right = 15.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bqse8"]
+content_margin_bottom = 6.0
+bg_color = Color(0.23625726, 0.49042535, 1, 1)
+skew = Vector2(0.565, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+expand_margin_left = 20.0
+expand_margin_top = 13.0
+expand_margin_right = 15.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="Theme" id="Theme_mjcor"]
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/constants/outline_size = 2
+Button/font_sizes/font_size = 22
+Button/fonts/font = ExtResource("173_56qjo")
+Button/styles/hover = SubResource("StyleBoxFlat_mjcor")
+Button/styles/normal = SubResource("StyleBoxFlat_la6fp")
+Button/styles/pressed = SubResource("StyleBoxFlat_bqse8")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wqpy7"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 23
+corner_radius_top_right = 28
+corner_radius_bottom_right = 26
+corner_radius_bottom_left = 28
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tt13v"]
+bg_color = Color(0.50928617, 0.50928617, 0.50928617, 1)
+corner_radius_top_left = 23
+corner_radius_top_right = 28
+corner_radius_bottom_right = 26
+corner_radius_bottom_left = 28
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ysoaw"]
+bg_color = Color(0.78697, 0.3543004, 0.3580913, 1)
+corner_radius_top_left = 23
+corner_radius_top_right = 28
+corner_radius_bottom_right = 26
+corner_radius_bottom_left = 28
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w8jus"]
+content_margin_bottom = 6.0
+bg_color = Color(0.5123122, 0.18346062, 0.0064629493, 1)
+skew = Vector2(0, 0.125)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+expand_margin_left = 20.0
+expand_margin_top = 13.0
+expand_margin_right = 15.0
+expand_margin_bottom = 21.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_67d3l"]
+content_margin_bottom = 6.0
+bg_color = Color(0.9137255, 0.35686275, 0.047058824, 1)
+skew = Vector2(0, 0.125)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+expand_margin_left = 20.0
+expand_margin_top = 13.0
+expand_margin_right = 15.0
+expand_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_26lf4"]
+content_margin_bottom = 6.0
+bg_color = Color(0.99556357, 0.5176789, 0.32070467, 1)
+skew = Vector2(0, 0.125)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.98178774, 0.76903915, 3.85046e-07, 1)
+expand_margin_left = 20.0
+expand_margin_top = 13.0
+expand_margin_right = 15.0
+expand_margin_bottom = 21.0
+
+[sub_resource type="Theme" id="Theme_67d3l"]
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/constants/outline_size = 3
+Button/fonts/font = ExtResource("3_dbg6e")
+Button/styles/hover = SubResource("StyleBoxFlat_w8jus")
+Button/styles/normal = SubResource("StyleBoxFlat_67d3l")
+Button/styles/pressed = SubResource("StyleBoxFlat_26lf4")
+
+[sub_resource type="Animation" id="Animation_dxx1t"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_lnqit"]
+resource_name = "luz"
+length = 10.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 5, 10),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [-0.09424778, 0.09424778, -0.09424778]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_sknqy"]
+_data = {
+&"RESET": SubResource("Animation_dxx1t"),
+&"luz": SubResource("Animation_lnqit")
+}
+
+[node name="Node2D" type="Node2D" unique_id=1869091245]
+script = ExtResource("1_8uatu")
+MC = Array[String](["Mate", "Capture"])
+tempp = Array[String](["Tempered", "Arch-Tempered"])
+can_capture = false
+only_tempered = true
+
+[node name="back" type="AnimationPlayer" parent="." unique_id=2139314698]
+libraries/ = SubResource("AnimationLibrary_t7syd")
+
+[node name="Background" type="Node2D" parent="." unique_id=1985701265]
+position = Vector2(1000, 0)
+
+[node name="Sprite2D4" type="Sprite2D" parent="Background" unique_id=914454422]
+self_modulate = Color(0.5649617, 0.5649616, 0.5649616, 1)
+light_mask = 2
+position = Vector2(-71.00003, 224)
+scale = Vector2(4.089069, 2.28)
+texture = ExtResource("2_wm7tk")
+
+[node name="Label" type="Label" parent="Background" unique_id=88122114]
+offset_left = 233.0
+offset_top = 470.0
+offset_right = 714.0
+offset_bottom = 574.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_fonts/font = ExtResource("3_dbg6e")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="Background" unique_id=798898112]
+texture_filter = 3
+position = Vector2(484, 339)
+scale = Vector2(1.58, 1.58)
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=684839809]
+self_modulate = Color(0.375782, 0.3070011, 0.1906698, 1)
+light_mask = 2
+texture_filter = 1
+position = Vector2(472.17062, 492.00006)
+scale = Vector2(1.9060981, 1.8437146)
+texture = ExtResource("4_0p7uc")
+
+[node name="Streak" type="Sprite2D" parent="." unique_id=1983591464]
+visible = false
+self_modulate = Color(0.37036446, 0.3703645, 0.37036446, 1)
+light_mask = 2
+position = Vector2(473.00003, 52.000004)
+scale = Vector2(0.5234375, 110.5)
+texture = SubResource("GradientTexture1D_57qmd")
+
+[node name="Streak2" type="Sprite2D" parent="." unique_id=1413526708]
+visible = false
+self_modulate = Color(0.51718444, 0.5171845, 0.51718444, 1)
+light_mask = 2
+position = Vector2(473, 40)
+scale = Vector2(-0.312, -65.909)
+texture = SubResource("GradientTexture1D_4djin")
+
+[node name="Label" type="Label" parent="." unique_id=848204273]
+visible = false
+self_modulate = Color(0.65012825, 0.6501283, 0.65012825, 1)
+light_mask = 2
+offset_left = 422.00003
+offset_top = 90.0
+offset_right = 480.00003
+offset_bottom = 113.0
+scale = Vector2(1.8399975, 1)
+theme_override_fonts/font = ExtResource("5_fckva")
+text = "STREAK"
+
+[node name="streak number" type="Label" parent="." unique_id=1628983941]
+visible = false
+self_modulate = Color(0.65012825, 0.6501283, 0.65012825, 1)
+light_mask = 2
+offset_left = 437.00003
+offset_top = 24.000008
+offset_right = 495.00003
+offset_bottom = 47.000008
+scale = Vector2(2.375, 2.375)
+theme_override_fonts/font = ExtResource("5_fckva")
+text = "0"
+
+[node name="Settings" type="Control" parent="." unique_id=33366639]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 657.0
+offset_top = -211.0
+offset_right = 697.0
+offset_bottom = -171.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Settings" unique_id=1338377816]
+texture_filter = 1
+position = Vector2(104, 59.000008)
+scale = Vector2(2.5377057, 2.4607158)
+texture = ExtResource("6_dtaee")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Settings" unique_id=457042443]
+layout_mode = 0
+offset_right = 219.0
+offset_bottom = 155.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Settings/ScrollContainer" unique_id=280972006]
+layout_mode = 2
+
+[node name="Disable Tempereds" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=984294736]
+visible = false
+layout_mode = 2
+text = "Disable Tempereds"
+
+[node name="Only Tempered" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=1899294155]
+visible = false
+layout_mode = 2
+text = "Only Tempereds"
+
+[node name="Only Arch-Tempered" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=270874167]
+visible = false
+layout_mode = 2
+text = "Only Arch-Tempereds"
+
+[node name="Only Apex" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=1506258631]
+visible = false
+layout_mode = 2
+text = "Only Apex"
+
+[node name="Only Hyper" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=289560299]
+visible = false
+layout_mode = 2
+text = "Only Hyper"
+
+[node name="Only Afflicted" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=1629774827]
+visible = false
+layout_mode = 2
+text = "Only Afflicted"
+
+[node name="Only Zenith" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=1252433482]
+visible = false
+layout_mode = 2
+text = "Only Zenith"
+
+[node name="Only Musou" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=1320110505]
+visible = false
+layout_mode = 2
+text = "Only Musou"
+
+[node name="Enable capture" type="CheckBox" parent="Settings/ScrollContainer/VBoxContainer" unique_id=1947555705]
+layout_mode = 2
+text = "Enable Capture"
+
+[node name="Luna" type="Node2D" parent="." unique_id=812387279]
+position = Vector2(861, 602)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Luna" unique_id=1439081920]
+self_modulate = Color(0.427493, 0.42749307, 0.42749307, 1)
+light_mask = 3
+texture_filter = 1
+position = Vector2(-57.650574, -56.656616)
+scale = Vector2(2.752, 2.793)
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"0"
+autoplay = "0"
+
+[node name="speech" type="AnimatedSprite2D" parent="Luna" unique_id=1949943164]
+visible = false
+texture_filter = 1
+position = Vector2(-240.00006, -378)
+scale = Vector2(2.176, 1.241)
+sprite_frames = SubResource("SpriteFrames_yf5fn")
+animation = &"1"
+frame_progress = 0.5829
+
+[node name="dialog" type="RichTextLabel" parent="Luna" unique_id=854372953]
+offset_left = -423.0
+offset_top = -407.0
+offset_right = -29.0
+offset_bottom = -263.0
+theme_override_colors/default_color = Color(0, 0, 0.4745098, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 1
+theme_override_fonts/normal_font = ExtResource("20_tgxhw")
+script = ExtResource("21_704od")
+
+[node name="luna_mov" type="AnimationPlayer" parent="Luna" unique_id=480354000]
+root_node = NodePath("../..")
+libraries/ = SubResource("AnimationLibrary_dxx1t")
+autoplay = &"idle"
+
+[node name="Area2D" type="Area2D" parent="Luna" unique_id=986269147]
+position = Vector2(-861, -602)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Luna/Area2D" unique_id=726019748]
+position = Vector2(853.5, 391.5)
+shape = SubResource("RectangleShape2D_g4v7s")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1582353134]
+self_modulate = Color(0.3854925, 0.38549247, 0.38549247, 1)
+light_mask = 2
+texture_filter = 1
+position = Vector2(539, 704.00006)
+scale = Vector2(5.151527, 1.8437146)
+texture = ExtResource("22_0qney")
+
+[node name="Node" type="Node" parent="." unique_id=1648269891]
+script = ExtResource("23_q8wmu")
+
+[node name="condi_hand" type="Node" parent="." unique_id=1109853117]
+script = ExtResource("24_v8ue0")
+
+[node name="mons_hand" type="Node" parent="." unique_id=1491453192]
+script = ExtResource("25_jqpvk")
+list_mon = Array[ExtResource("26_vr6r1")]([ExtResource("81_e1cfs"), ExtResource("82_pv3l7"), ExtResource("83_cm3hc"), ExtResource("30_tgxhw"), ExtResource("84_t63sx"), ExtResource("85_8br1b"), ExtResource("33_704od"), ExtResource("51_0utvd"), ExtResource("52_syx5y"), ExtResource("53_oop7e"), ExtResource("27_ocl18"), ExtResource("86_2egqa"), ExtResource("87_fwxtp"), ExtResource("88_l2m8u"), ExtResource("89_h5rfp"), ExtResource("42_0qney"), ExtResource("43_q8wmu"), ExtResource("44_v8ue0"), ExtResource("45_jqpvk"), ExtResource("57_ou0w1"), ExtResource("29_fuytu"), ExtResource("48_vr6r1"), ExtResource("90_al3sc"), ExtResource("91_valh5"), ExtResource("93_6vf1a"), ExtResource("52_ocl18"), ExtResource("92_re5kg"), ExtResource("94_5fx0e"), ExtResource("95_pdgkf"), ExtResource("96_i11nf"), ExtResource("61_bpmno"), ExtResource("110_xnd58"), ExtResource("59_ukson"), ExtResource("60_fuytu"), ExtResource("97_fudlt"), ExtResource("35_p5nfc"), ExtResource("98_7m6l0"), ExtResource("64_b5hjm"), ExtResource("65_m4kxk"), ExtResource("99_m7tcb"), ExtResource("100_0nw87"), ExtResource("68_ou7wb"), ExtResource("101_i6ekq"), ExtResource("70_rat34"), ExtResource("71_aftro"), ExtResource("66_xul0p"), ExtResource("73_p5nfc"), ExtResource("74_dwx6t"), ExtResource("68_fb2gw"), ExtResource("76_43y4r"), ExtResource("102_6jmc3"), ExtResource("44_v2g1o"), ExtResource("71_yjpk0"), ExtResource("103_8xssm"), ExtResource("104_6k54s"), ExtResource("40_b342f"), ExtResource("72_phmt0"), ExtResource("84_30v2l"), ExtResource("41_1w5mw"), ExtResource("86_43nl3"), ExtResource("73_qqq76"), ExtResource("74_ndmtj"), ExtResource("47_7rwdj"), ExtResource("76_h1mu4"), ExtResource("105_gkxxi"), ExtResource("106_iojc1"), ExtResource("93_b342f"), ExtResource("94_1w5mw"), ExtResource("107_dh7gn"), ExtResource("96_s3rbg"), ExtResource("97_71gna"), ExtResource("49_jxsf8"), ExtResource("108_h84tn"), ExtResource("100_v2g1o"), ExtResource("109_oald3"), ExtResource("102_hlcx8"), ExtResource("46_py50d"), ExtResource("104_py50d")])
+list_mon_apex = Array[ExtResource("26_vr6r1")]([ExtResource("44_v2g1o"), ExtResource("45_hlcx8"), ExtResource("32_ou7wb"), ExtResource("46_py50d"), ExtResource("47_7rwdj"), ExtResource("48_41wi3"), ExtResource("49_jxsf8"), ExtResource("29_fuytu")])
+list_mon_hyper = Array[ExtResource("26_vr6r1")]([ExtResource("50_0ffmk"), ExtResource("51_0utvd"), ExtResource("52_syx5y"), ExtResource("53_oop7e"), ExtResource("27_ocl18"), ExtResource("54_a1qdn"), ExtResource("55_60bcq"), ExtResource("56_0nef7"), ExtResource("57_ou0w1"), ExtResource("45_hlcx8"), ExtResource("29_fuytu"), ExtResource("58_fbji2"), ExtResource("59_5m3rm"), ExtResource("60_kh5qe"), ExtResource("61_bpmno"), ExtResource("32_ou7wb"), ExtResource("33_rat34"), ExtResource("62_dr8kr"), ExtResource("35_p5nfc"), ExtResource("63_40qak"), ExtResource("64_cehsk"), ExtResource("65_a12m4"), ExtResource("66_xul0p"), ExtResource("67_0kcal"), ExtResource("68_fb2gw"), ExtResource("69_twu6w"), ExtResource("70_atrvl"), ExtResource("39_43nl3"), ExtResource("71_yjpk0"), ExtResource("40_b342f"), ExtResource("72_phmt0"), ExtResource("41_1w5mw"), ExtResource("73_qqq76"), ExtResource("74_ndmtj"), ExtResource("75_dbcwv"), ExtResource("47_7rwdj"), ExtResource("76_h1mu4"), ExtResource("77_183ut"), ExtResource("49_jxsf8"), ExtResource("78_qgq45"), ExtResource("79_r02pi"), ExtResource("43_71gna"), ExtResource("80_2op02"), ExtResource("46_py50d")])
+list_mon_afflicted = Array[ExtResource("26_vr6r1")]([ExtResource("81_e1cfs"), ExtResource("82_pv3l7"), ExtResource("83_cm3hc"), ExtResource("84_t63sx"), ExtResource("51_0utvd"), ExtResource("85_8br1b"), ExtResource("52_syx5y"), ExtResource("53_oop7e"), ExtResource("86_2egqa"), ExtResource("87_fwxtp"), ExtResource("27_ocl18"), ExtResource("88_l2m8u"), ExtResource("89_h5rfp"), ExtResource("57_ou0w1"), ExtResource("29_fuytu"), ExtResource("90_al3sc"), ExtResource("91_valh5"), ExtResource("92_re5kg"), ExtResource("93_6vf1a"), ExtResource("94_5fx0e"), ExtResource("95_pdgkf"), ExtResource("96_i11nf"), ExtResource("97_fudlt"), ExtResource("35_p5nfc"), ExtResource("98_7m6l0"), ExtResource("99_m7tcb"), ExtResource("100_0nw87"), ExtResource("101_i6ekq"), ExtResource("66_xul0p"), ExtResource("68_fb2gw"), ExtResource("102_6jmc3"), ExtResource("44_v2g1o"), ExtResource("71_yjpk0"), ExtResource("103_8xssm"), ExtResource("104_6k54s"), ExtResource("40_b342f"), ExtResource("72_phmt0"), ExtResource("41_1w5mw"), ExtResource("73_qqq76"), ExtResource("74_ndmtj"), ExtResource("47_7rwdj"), ExtResource("76_h1mu4"), ExtResource("105_gkxxi"), ExtResource("106_iojc1"), ExtResource("107_dh7gn"), ExtResource("49_jxsf8"), ExtResource("108_h84tn"), ExtResource("109_oald3"), ExtResource("46_py50d"), ExtResource("61_bpmno"), ExtResource("110_xnd58")])
+list_mon_deviant = Array[ExtResource("26_vr6r1")]([ExtResource("111_ed07p"), ExtResource("112_v64t6"), ExtResource("113_cgqbd"), ExtResource("114_pw8bl"), ExtResource("115_0mnxl"), ExtResource("116_xfetk"), ExtResource("117_qdgt3"), ExtResource("118_pm3fb"), ExtResource("119_v0e7v"), ExtResource("120_jok3k"), ExtResource("121_0ogq3"), ExtResource("122_bcrbs"), ExtResource("123_hglju"), ExtResource("124_sycre"), ExtResource("125_fyhds"), ExtResource("126_08ydq"), ExtResource("127_8e4wt"), ExtResource("128_chcam")])
+list_mon_Musou = Array[ExtResource("26_vr6r1")]([ExtResource("129_4f31o"), ExtResource("130_yg3qd"), ExtResource("131_proa2"), ExtResource("132_06b01"), ExtResource("133_w80rv"), ExtResource("134_ex6dh"), ExtResource("135_uwrat"), ExtResource("136_1mm2f"), ExtResource("137_v5fu2"), ExtResource("138_72ngh")])
+list_mon_Zenith = Array[ExtResource("26_vr6r1")]([ExtResource("139_k8pi2"), ExtResource("140_uqr4b"), ExtResource("141_elqvj"), ExtResource("142_reowk"), ExtResource("143_1x4nu"), ExtResource("144_6dx4q"), ExtResource("145_0rpn3"), ExtResource("146_uak3t"), ExtResource("147_en7gj"), ExtResource("148_4g3tl"), ExtResource("149_2t75v"), ExtResource("150_j55b0"), ExtResource("151_mfkt4"), ExtResource("152_fdaiv"), ExtResource("153_qs0ny"), ExtResource("154_yd6ro"), ExtResource("155_27xkr"), ExtResource("156_mi2wi"), ExtResource("157_uw82s")])
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=545791192]
+libraries/ = SubResource("AnimationLibrary_mp6ea")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=50728714]
+position = Vector2(392, 750)
+scale = Vector2(3.235, 3.235)
+
+[node name="sino3" type="AnimatedSprite2D" parent="Area2D" unique_id=395010953]
+visible = false
+self_modulate = Color(0.3764706, 0, 0, 0.54901963)
+texture_filter = 1
+position = Vector2(0, 3.0517578e-05)
+scale = Vector2(1.065, 1.065)
+sprite_frames = SubResource("SpriteFrames_57qmd")
+
+[node name="sino2" type="AnimatedSprite2D" parent="Area2D" unique_id=1746164536]
+self_modulate = Color(0.072842635, 0.072842635, 0.072842635, 1)
+texture_filter = 1
+position = Vector2(3.44, 44.416)
+rotation = 3.1415927
+scale = Vector2(1, 0.294)
+skew = -0.44505897
+sprite_frames = SubResource("SpriteFrames_57qmd")
+
+[node name="sino" type="AnimatedSprite2D" parent="Area2D" unique_id=1260285383]
+texture_filter = 1
+position = Vector2(0, 1.5258789e-05)
+sprite_frames = SubResource("SpriteFrames_57qmd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1264093642]
+position = Vector2(0, -12)
+rotation = -1.5707964
+shape = SubResource("CapsuleShape2D_fcnqv")
+
+[node name="sucess" type="Area2D" parent="." unique_id=506295444]
+visible = false
+position = Vector2(647.00006, 833.99994)
+scale = Vector2(2.31558, 2.5774999)
+
+[node name="bot1" type="AnimatedSprite2D" parent="sucess" unique_id=2091088272]
+self_modulate = Color(0.3764706, 0, 0, 0.54901963)
+texture_filter = 1
+position = Vector2(0.92735696, -5.564149)
+scale = Vector2(1.0402706, 1.0213157)
+sprite_frames = SubResource("SpriteFrames_sklv6")
+animation = &"1"
+
+[node name="bot2" type="AnimatedSprite2D" parent="sucess" unique_id=186678172]
+self_modulate = Color(0.072842635, 0.072842635, 0.072842635, 1)
+texture_filter = 1
+position = Vector2(3.44, 32.148384)
+rotation = 3.1415927
+scale = Vector2(1, 0.294)
+skew = -0.44505897
+sprite_frames = SubResource("SpriteFrames_r2toi")
+animation = &"1"
+frame_progress = 0.69454116
+
+[node name="bot3" type="AnimatedSprite2D" parent="sucess" unique_id=1925978198]
+texture_filter = 1
+position = Vector2(0, 1.5258789e-05)
+sprite_frames = SubResource("SpriteFrames_54jr1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="sucess" unique_id=1337955710]
+position = Vector2(0, -12)
+rotation = -1.5707964
+shape = SubResource("CapsuleShape2D_fcnqv")
+
+[node name="condicoes" type="Control" parent="." unique_id=404717549]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1114.0
+offset_top = -777.0
+offset_right = 1153.9999
+offset_bottom = -737.0
+
+[node name="Sprite2D" type="Sprite2D" parent="condicoes" unique_id=224908770]
+texture_filter = 1
+position = Vector2(-102.24999, 352.81253)
+scale = Vector2(0.53581077, 1.6057303)
+texture = ExtResource("162_ryyk0")
+
+[node name="Inserir" type="LineEdit" parent="condicoes" unique_id=190222420]
+layout_mode = 0
+offset_left = -230.0
+offset_top = 2.0
+offset_right = 38.0
+offset_bottom = 35.0
+offset_transform_enabled = true
+theme = ExtResource("163_0r58w")
+placeholder_text = "Insert condition"
+max_length = 110
+
+[node name="condições" type="ScrollContainer" parent="condicoes" unique_id=275674856]
+layout_mode = 0
+offset_left = -231.0
+offset_top = 41.0
+offset_right = 33.0
+offset_bottom = 673.0
+
+[node name="condi_list" type="VBoxContainer" parent="condicoes/condições" unique_id=88797953]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="condicoes/condições/condi_list" unique_id=1102351827]
+visible = false
+layout_mode = 2
+text = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+autowrap_mode = 3
+
+[node name="Button2" type="Button" parent="condicoes/condições/condi_list" unique_id=1051965656]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button3" type="Button" parent="condicoes/condições/condi_list" unique_id=172588266]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button4" type="Button" parent="condicoes/condições/condi_list" unique_id=200478964]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button5" type="Button" parent="condicoes/condições/condi_list" unique_id=1694041666]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button6" type="Button" parent="condicoes/condições/condi_list" unique_id=2090680939]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button7" type="Button" parent="condicoes/condições/condi_list" unique_id=1197978692]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button8" type="Button" parent="condicoes/condições/condi_list" unique_id=805757944]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button9" type="Button" parent="condicoes/condições/condi_list" unique_id=1168798012]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button10" type="Button" parent="condicoes/condições/condi_list" unique_id=1120047474]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button11" type="Button" parent="condicoes/condições/condi_list" unique_id=1056322515]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button12" type="Button" parent="condicoes/condições/condi_list" unique_id=602995450]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button13" type="Button" parent="condicoes/condições/condi_list" unique_id=58355850]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button14" type="Button" parent="condicoes/condições/condi_list" unique_id=1899812663]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button15" type="Button" parent="condicoes/condições/condi_list" unique_id=1546377989]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button16" type="Button" parent="condicoes/condições/condi_list" unique_id=196655821]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button17" type="Button" parent="condicoes/condições/condi_list" unique_id=418618453]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button18" type="Button" parent="condicoes/condições/condi_list" unique_id=1402149220]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button19" type="Button" parent="condicoes/condições/condi_list" unique_id=2139156167]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button20" type="Button" parent="condicoes/condições/condi_list" unique_id=36058354]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="Button21" type="Button" parent="condicoes/condições/condi_list" unique_id=919443070]
+visible = false
+layout_mode = 2
+text = "aaa"
+
+[node name="leitura" type="Node2D" parent="condicoes" unique_id=25527991]
+position = Vector2(-587, 468)
+script = ExtResource("164_fipjf")
+
+[node name="salvar" type="Button" parent="condicoes/leitura" unique_id=901954]
+offset_left = 392.0
+offset_top = 215.0
+offset_right = 462.0
+offset_bottom = 246.0
+theme = ExtResource("163_0r58w")
+text = "Save"
+
+[node name="carregar" type="Button" parent="condicoes/leitura" unique_id=1403977389]
+offset_left = 536.0
+offset_top = 215.0
+offset_right = 608.0
+offset_bottom = 246.0
+theme = ExtResource("163_0r58w")
+text = "Load"
+
+[node name="monsti" type="Node2D" parent="." unique_id=1752211773]
+position = Vector2(-1149, 482)
+
+[node name="Sprite2D" type="Sprite2D" parent="monsti" unique_id=1833865149]
+visible = false
+texture_filter = 1
+position = Vector2(350.6707, -76)
+scale = Vector2(0.9221075, 0.65637094)
+texture = ExtResource("165_j3fg0")
+
+[node name="Lista Monstros" type="ScrollContainer" parent="monsti" unique_id=757511798]
+offset_top = -207.99991
+offset_right = 633.3334
+scale = Vector2(0.81, 0.81)
+offset_transform_scale = Vector2(0.69, 0.69)
+horizontal_scroll_mode = 0
+
+[node name="VBoxContainer" type="GridContainer" parent="monsti/Lista Monstros" unique_id=584945836]
+layout_mode = 2
+offset_transform_position_ratio = Vector2(-0.185, -0.155)
+offset_transform_scale = Vector2(0.595, 0.595)
+columns = 3
+
+[node name="weapon" type="Control" parent="." unique_id=1060403112]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1219.0
+offset_top = 535.0
+offset_right = 1259.0
+offset_bottom = 575.0
+scale = Vector2(1.33, 1.33)
+metadata/_edit_use_anchors_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="weapon" unique_id=1640302502]
+texture_filter = 1
+position = Vector2(154.49994, 77.49999)
+scale = Vector2(0.7429148, 0.63142866)
+texture = ExtResource("2_wm7tk")
+
+[node name="VBoxContainer2" type="GridContainer" parent="weapon" unique_id=365099130]
+layout_mode = 0
+offset_left = -15.789487
+offset_top = 13.533829
+offset_right = 459.2105
+offset_bottom = 254.53383
+scale = Vector2(0.615, 0.615)
+columns = 3
+
+[node name="Greatsword" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1069617560]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Greatsword"
+
+[node name="Longsword" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1517856591]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Longsword"
+
+[node name="Sword and Shield" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1061802552]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Sword and Shield"
+
+[node name="Dual Blades" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=45599338]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Dual Blades"
+
+[node name="Lance" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1731435989]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Lance"
+
+[node name="Gunlance" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=739632149]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Gunlance"
+
+[node name="Hammer" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=517972059]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Hammer"
+
+[node name="Hunting Horn" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1000805106]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Hunting Horn"
+
+[node name="Switch Axe" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1844119470]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Switch Axe"
+
+[node name="Charge Blade" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1538171039]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Charge Blade"
+
+[node name="Insect Glaive" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1283741030]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Insect Glaive"
+
+[node name="Bow" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1041887242]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Bow"
+
+[node name="Heavy Bowgun" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1507168880]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Heavy Bowgun"
+
+[node name="Light Bowgun" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1561520773]
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Light Bowgun"
+
+[node name="Tonfa" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1490970310]
+visible = false
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Tonfa"
+
+[node name="Magnet Spike" type="CheckBox" parent="weapon/VBoxContainer2" unique_id=1436517785]
+visible = false
+layout_mode = 2
+theme = ExtResource("166_cxqg1")
+text = "Magnet Spike"
+
+[node name="Ui Handler" type="Control" parent="." unique_id=1443524174]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("167_vwn1f")
+
+[node name="cond_list_" type="Button" parent="Ui Handler" unique_id=304190051]
+layout_mode = 0
+offset_left = 94.0
+offset_right = 182.0
+offset_bottom = 31.0
+theme_override_fonts/font = ExtResource("20_tgxhw")
+theme_override_styles/normal = ExtResource("168_bvmom")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_t7syd")
+theme_override_styles/hover = SubResource("StyleBoxFlat_h28hk")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_hppra")
+text = "Conditions"
+
+[node name="close_cond_list" type="Button" parent="Ui Handler" unique_id=1968205848]
+visible = false
+layout_mode = 0
+offset_left = 314.0
+offset_top = 2.0
+offset_right = 364.0
+offset_bottom = 52.0
+theme = ExtResource("169_wrpld")
+icon = ExtResource("170_k2pgs")
+icon_alignment = 1
+
+[node name="monst_list" type="Button" parent="Ui Handler" unique_id=2024342499]
+layout_mode = 0
+offset_top = 918.0
+offset_right = 183.0
+offset_bottom = 999.0
+theme = SubResource("Theme_h28hk")
+text = "Monsters"
+
+[node name="monst_list_close" type="Button" parent="Ui Handler" unique_id=41439587]
+visible = false
+layout_mode = 0
+offset_top = 720.0
+offset_right = 50.0
+offset_bottom = 770.0
+theme = ExtResource("169_wrpld")
+icon = ExtResource("170_k2pgs")
+icon_alignment = 1
+
+[node name="ativar" type="Button" parent="Ui Handler" unique_id=729972753]
+visible = false
+layout_mode = 0
+offset_left = 80.0
+offset_top = 778.0
+offset_right = 177.0
+offset_bottom = 820.0
+theme = ExtResource("163_0r58w")
+text = "Activate All"
+
+[node name="desativar" type="Button" parent="Ui Handler" unique_id=1790835570]
+visible = false
+layout_mode = 0
+offset_left = 230.0
+offset_top = 778.0
+offset_right = 363.0
+offset_bottom = 820.0
+theme = ExtResource("163_0r58w")
+text = "Deactivate All"
+
+[node name="arma_list" type="Button" parent="Ui Handler" unique_id=256353722]
+layout_mode = 0
+offset_left = 872.0
+offset_top = 945.0
+offset_right = 989.0
+offset_bottom = 992.0
+theme = SubResource("Theme_mjcor")
+text = "Weapons"
+
+[node name="arma_list_close" type="Button" parent="Ui Handler" unique_id=1742095087]
+visible = false
+layout_mode = 0
+offset_left = 942.0
+offset_top = 770.0
+offset_right = 1000.0
+offset_bottom = 801.0
+theme = ExtResource("169_wrpld")
+icon = ExtResource("170_k2pgs")
+icon_alignment = 1
+
+[node name="ativar_ar" type="Button" parent="Ui Handler" unique_id=1023320137]
+visible = false
+layout_mode = 0
+offset_left = 650.0
+offset_top = 801.0
+offset_right = 752.0
+offset_bottom = 832.0
+theme = ExtResource("163_0r58w")
+text = "Activate All"
+
+[node name="desativar_ar" type="Button" parent="Ui Handler" unique_id=1249474143]
+visible = false
+layout_mode = 0
+offset_left = 803.0
+offset_top = 801.0
+offset_right = 936.0
+offset_bottom = 832.0
+theme = ExtResource("163_0r58w")
+text = "Deactivate All"
+
+[node name="menu" type="Button" parent="Ui Handler" unique_id=1733021096]
+layout_mode = 0
+offset_left = 880.0
+offset_top = 7.0
+offset_right = 995.0
+offset_bottom = 38.0
+offset_transform_position = Vector2(193.54, 0)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_wqpy7")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_tt13v")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ysoaw")
+text = "Menu"
+
+[node name="settings_close" type="Button" parent="Ui Handler" unique_id=1877365]
+visible = false
+layout_mode = 0
+offset_left = 580.0
+offset_top = -1.0
+offset_right = 650.0
+offset_bottom = 30.0
+theme = ExtResource("169_wrpld")
+icon = ExtResource("170_k2pgs")
+icon_alignment = 1
+
+[node name="settings" type="Button" parent="Ui Handler" unique_id=1249907053]
+layout_mode = 0
+offset_left = 754.0
+offset_top = 3.0
+offset_right = 824.0
+offset_bottom = 34.0
+theme = SubResource("Theme_67d3l")
+text = "Config."
+
+[node name="filter" type="LineEdit" parent="Ui Handler" unique_id=632326843]
+visible = false
+layout_mode = 0
+offset_left = 414.0
+offset_top = 781.0
+offset_right = 611.0
+offset_bottom = 817.0
+theme = ExtResource("163_0r58w")
+placeholder_text = "Filter"
+
+[node name="PointLight2D" type="PointLight2D" parent="." unique_id=1903840230]
+light_mask = 2
+visibility_layer = 2
+position = Vector2(490, -169)
+scale = Vector2(0.8, 1.02)
+energy = 1.75
+range_item_cull_mask = 2
+texture = ExtResource("174_cpvbb")
+offset = Vector2(37.5, 642.15686)
+texture_scale = 1.29
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="PointLight2D" unique_id=1548814909]
+libraries/ = SubResource("AnimationLibrary_sknqy")
+autoplay = &"luz"
+
+[node name="Sino" type="AudioStreamPlayer" parent="." unique_id=1904881265]
+stream = ExtResource("175_2474b")
+volume_db = -6.0
+
+[node name="Monstros" type="AudioStreamPlayer" parent="." unique_id=82634667]
+stream = ExtResource("176_r48lb")
+volume_db = -6.0
+
+[node name="Armas" type="AudioStreamPlayer" parent="." unique_id=241746759]
+stream = ExtResource("177_cw05q")
+volume_db = -6.0
+
+[node name="Plush" type="AudioStreamPlayer" parent="." unique_id=1094642583]
+stream = ExtResource("178_d7xky")
+volume_db = -6.0
+
+[node name="Talk" type="AudioStreamPlayer" parent="." unique_id=385848039]
+stream = ExtResource("179_qu07t")
+volume_db = -6.0
+
+[node name="Config" type="AudioStreamPlayer" parent="." unique_id=1822805273]
+stream = ExtResource("180_3dijw")
+volume_db = -6.0
+
+[node name="Condi" type="AudioStreamPlayer" parent="." unique_id=1557131474]
+stream = ExtResource("181_8imrk")
+volume_db = -6.0
+
+[node name="quest" type="AudioStreamPlayer" parent="." unique_id=276645232]
+stream = ExtResource("182_xcbb3")
+volume_db = -6.0
+
+[node name="gear" type="AudioStreamPlayer" parent="." unique_id=1250590927]
+stream = ExtResource("183_a7ib5")
+volume_db = -6.0
+
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Disable Tempereds" to="." method="_on_disable_tempereds_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Tempered" to="." method="_on_only_tempered_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Arch-Tempered" to="." method="_on_only_arch_tempered_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Apex" to="." method="_on_only_apex_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Hyper" to="." method="_on_only_hyper_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Afflicted" to="." method="_on_only_afflicted_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Zenith" to="." method="_on_only_zenith_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Only Musou" to="." method="_on_only_musou_toggled"]
+[connection signal="toggled" from="Settings/ScrollContainer/VBoxContainer/Enable capture" to="." method="_on_enable_capture_toggled"]
+[connection signal="input_event" from="Luna/Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="input_event" from="Area2D" to="." method="sino_apertado"]
+[connection signal="mouse_shape_entered" from="Area2D" to="." method="_on_area_2d_mouse_shape_entered"]
+[connection signal="mouse_shape_exited" from="Area2D" to="." method="_on_area_2d_mouse_shape_exited"]
+[connection signal="input_event" from="sucess" to="." method="_on_sucess_input_event"]
+[connection signal="text_submitted" from="condicoes/Inserir" to="condi_hand" method="_on_inserir_text_submitted"]
+[connection signal="pressed" from="condicoes/leitura/salvar" to="condicoes/leitura" method="_on_salvar_pressed"]
+[connection signal="pressed" from="condicoes/leitura/carregar" to="condicoes/leitura" method="_on_carregar_pressed"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Greatsword" to="Node" method="_on_check_box_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Longsword" to="Node" method="_on_longsword_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Sword and Shield" to="Node" method="_on_check_box_3_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Dual Blades" to="Node" method="_on_check_box_4_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Lance" to="Node" method="_on_check_box_5_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Gunlance" to="Node" method="_on_gunlance_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Hammer" to="Node" method="_on_check_box_2_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Hunting Horn" to="Node" method="_on_hunting_horn_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Switch Axe" to="Node" method="_on_switch_axe_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Charge Blade" to="Node" method="_on_charge_blade_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Insect Glaive" to="Node" method="_on_insect_glaive_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Bow" to="Node" method="_on_bow_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Heavy Bowgun" to="Node" method="_on_check_box_6_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Light Bowgun" to="Node" method="_on_check_box_7_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Tonfa" to="Node" method="_on_tonfa_toggled"]
+[connection signal="toggled" from="weapon/VBoxContainer2/Magnet Spike" to="Node" method="_on_magnet_spike_toggled"]
+[connection signal="pressed" from="Ui Handler/cond_list_" to="Ui Handler" method="_on_cond_list__pressed"]
+[connection signal="pressed" from="Ui Handler/close_cond_list" to="Ui Handler" method="_on_close_cond_list_pressed"]
+[connection signal="pressed" from="Ui Handler/monst_list" to="Ui Handler" method="_on_monst_list_pressed"]
+[connection signal="pressed" from="Ui Handler/monst_list_close" to="Ui Handler" method="_on_monst_list_close_pressed"]
+[connection signal="pressed" from="Ui Handler/ativar" to="mons_hand" method="_on_ativar_pressed"]
+[connection signal="pressed" from="Ui Handler/desativar" to="mons_hand" method="_on_desativar_pressed"]
+[connection signal="pressed" from="Ui Handler/arma_list" to="Ui Handler" method="_on_arma_list_pressed"]
+[connection signal="pressed" from="Ui Handler/arma_list_close" to="Ui Handler" method="_on_arma_list_close_pressed"]
+[connection signal="pressed" from="Ui Handler/ativar_ar" to="Ui Handler" method="_on_ativar_ar_pressed"]
+[connection signal="pressed" from="Ui Handler/desativar_ar" to="Ui Handler" method="_on_desativar_ar_pressed"]
+[connection signal="pressed" from="Ui Handler/menu" to="." method="_on_menu_pressed"]
+[connection signal="pressed" from="Ui Handler/settings_close" to="Ui Handler" method="_on_settings_close_pressed"]
+[connection signal="pressed" from="Ui Handler/settings" to="Ui Handler" method="_on_settings_toggled"]
+[connection signal="text_changed" from="Ui Handler/filter" to="mons_hand" method="_on_line_edit_text_changed"]

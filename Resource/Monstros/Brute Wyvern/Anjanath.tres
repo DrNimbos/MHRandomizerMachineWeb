@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://br47yfrsb72d2"]
+
+[ext_resource type="Texture2D" uid="uid://c8pgceilcdfqm" path="res://Foto/Brute Wyvern/MHWI-Anjanath_Icon.png" id="1_h30mf"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_t1pbq"]
+
+[resource]
+script = ExtResource("2_t1pbq")
+nome = "Anjanath"
+foto = ExtResource("1_h30mf")
+capturavel = true
+tipo = 2
+comentario2 = "I heard it's a joke to say he is the \"Ancient Forest Grim Reaper\""
+comentario2_br = "Ouvi dizer que é piada chamá-lo de \"Ceifador da Floresta Ancestral\"."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

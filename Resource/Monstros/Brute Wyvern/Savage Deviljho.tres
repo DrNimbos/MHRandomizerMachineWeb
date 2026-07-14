@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://iknh3u3j8ry6"]
+
+[ext_resource type="Texture2D" uid="uid://bargbkcjs060u" path="res://Foto/Brute Wyvern/MH3U-Savage_Deviljho_Icon.png" id="1_ydk3q"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_tlxdo"]
+
+[resource]
+script = ExtResource("2_tlxdo")
+nome = "Savage Deviljho"
+foto = ExtResource("1_ydk3q")
+tipo = 2
+comentario2 = "Please slay this horrible beast and help everything from not getting mauled to death!"
+comentario2_br = "Por favor, mate essa fera horrível e impeça que todos sejam despedaçados até a morte!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

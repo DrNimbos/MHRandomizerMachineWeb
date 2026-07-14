@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://ct8ihvnb3a6ro"]
+
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_88vr2"]
+[ext_resource type="Texture2D" uid="uid://cknqcruxcrpju" path="res://Foto/Fanged Wyvern/MH3U-Stygian_Zinogre_Icon.png" id="1_eawji"]
+
+[resource]
+script = ExtResource("1_88vr2")
+nome = "Stygian Zinogre"
+foto = ExtResource("1_eawji")
+capturavel = true
+tipo = 10
+comentario2 = "Oh... This was our hunter's favorite monsters.. He wouldn't stop talking about it... when he was alive that is.."
+comentario2_br = "Ah... Esses eram os monstros favoritos do nosso caçador... Ele não parava de falar sobre eles... isto é, quando estava vivo..."
+reacao = "5"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

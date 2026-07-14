@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dxko88mqmheox"]
+
+[ext_resource type="Texture2D" uid="uid://dabnh22hjsyh6" path="res://Foto/Elder Dragon/MHWI-Xeno_27jiiva_Icon.png" id="1_mbed6"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_514x6"]
+
+[resource]
+script = ExtResource("2_514x6")
+nome = "Xeno Jii'va"
+foto = ExtResource("1_mbed6")
+tipo = 8
+comentario2 = "The guild only managed to see a later stage of it's life... I wonder how it looks when REALLY young.."
+comentario2_br = "A guilda só conseguiu ver uma fase mais avançada da vida dele... Fico imaginando como ele é quando é REALMENTE jovem..."
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://ckvnniwqhu7t"]
+
+[ext_resource type="Texture2D" uid="uid://bd7lac1vqlwbi" path="res://Foto/Brute Wyvern/MHGU-Crystalbeard_Uragaan_Icon.png" id="1_3rfwn"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_fna71"]
+
+[resource]
+script = ExtResource("2_fna71")
+nome = "Crystalbeard Uragaan"
+foto = ExtResource("1_3rfwn")
+capturavel = true
+tipo = 2
+comentario2 = "Sooooo ugly."
+comentario2_br = "Tãooooo feio."
+reacao = "4"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

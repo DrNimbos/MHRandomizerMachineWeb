@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bhusi6bdpb55h"]
+
+[ext_resource type="Texture2D" uid="uid://w7g7ock5sumi" path="res://Foto/Neopteron/MHGU-Seltas_Queen_Icon.png" id="1_5q1k1"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_ppwu8"]
+
+[resource]
+script = ExtResource("1_ppwu8")
+nome = "Seltas Queen"
+foto = ExtResource("1_5q1k1")
+capturavel = true
+tipo = 13
+comentario2 = "If you wouldn't kill your lover to cannibalize them for stamina, you're living life wrong."
+comentario2_br = "Se você não mataria seu amor para canibalizar ele por stamina, você esta vivendo errado.."
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

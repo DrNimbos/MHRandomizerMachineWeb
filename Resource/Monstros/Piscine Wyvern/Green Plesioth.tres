@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dv6boo6rgv1sq"]
+
+[ext_resource type="Texture2D" uid="uid://dyobi1utkwju4" path="res://Foto/Piscine Wyvern/1stGen-Green_Plesioth_Icon.png" id="1_hub1s"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_2q5wl"]
+
+[resource]
+script = ExtResource("2_2q5wl")
+nome = "Green Plesioth"
+foto = ExtResource("1_hub1s")
+capturavel = true
+tipo = 14
+comentario2 = "Plesioth.. But Green!"
+comentario2_br = "Plesioth.. Mas verde!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

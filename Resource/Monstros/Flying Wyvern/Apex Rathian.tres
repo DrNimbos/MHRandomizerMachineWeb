@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cg3o3bvpeeg4r"]
+
+[ext_resource type="Texture2D" uid="uid://dm1h5l6ngk58j" path="res://Foto/Flying Wyvern/MHRS-Apex_Rathian_Icon.png" id="1_m8hwq"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_uym10"]
+
+[resource]
+script = ExtResource("2_uym10")
+nome = "Apex Rathian"
+foto = ExtResource("1_m8hwq")
+tipo = 3
+comentario2 = "Rathian but stronger.. version 418941"
+comentario2_br = "Rathian mais forte... versão 418941"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

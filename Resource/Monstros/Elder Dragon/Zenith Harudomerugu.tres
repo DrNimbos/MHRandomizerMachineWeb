@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cpylfl4lbnlms"]
+
+[ext_resource type="Texture2D" uid="uid://temuyflo1g2v" path="res://Foto/Elder Dragon/MHFrontier-Zenith_Haldmerg_Icon.png" id="1_mhmy1"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_xympa"]
+
+[resource]
+script = ExtResource("2_xympa")
+nome = "Zenith Harudomerugu"
+foto = ExtResource("1_mhmy1")
+tipo = 8
+comentario2 = "Good Luck!"
+comentario2_br = "Boa Sorte!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

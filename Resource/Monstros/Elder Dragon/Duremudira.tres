@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dktqktwuij3ej"]
+
+[ext_resource type="Texture2D" uid="uid://cexxw7aduikjw" path="res://Foto/Elder Dragon/MHFrontier-Dolemdira_Icon.png" id="1_8nelg"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_3oq5v"]
+
+[resource]
+script = ExtResource("2_3oq5v")
+nome = "Duremudira"
+foto = ExtResource("1_8nelg")
+tipo = 8
+comentario2 = "This really exists???"
+comentario2_br = "Isso realmente existe??"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://ckluf4dkyi4th"]
+
+[ext_resource type="Texture2D" uid="uid://dax6hoj0efjug" path="res://Foto/Bird Wyvern/MHWI-Scarred_Yian_Garuga_Icon.png" id="1_uhapl"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_qdsft"]
+
+[resource]
+script = ExtResource("2_qdsft")
+nome = "Scarred Yian Garuga"
+foto = ExtResource("1_uhapl")
+tempered = true
+capturavel = true
+tipo = 1
+comentario2 = "I can't even imagine the encounters this bird has gone through..."
+comentario2_br = "Não consigo nem imaginar os encontros pelos quais esse pássaro passou..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

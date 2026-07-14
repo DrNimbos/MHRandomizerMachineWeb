@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://b0t641d0dyjcw"]
+
+[ext_resource type="Texture2D" uid="uid://cvfkypq6o7yye" path="res://Foto/Brute Wyvern/MH3U-Brachydios_Icon.png" id="1_6qycp"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_3jo7b"]
+
+[resource]
+script = ExtResource("2_3jo7b")
+nome = "Brachydios"
+foto = ExtResource("1_6qycp")
+capturavel = true
+tipo = 2
+comentario2 = "I heard there's a famous Guild Receptionist that loves Brachydios... Well I love it too... But not THAT way!"
+comentario2_br = "Ouvi dizer que tem uma recepcionista famosa da Guilda que adora o Brachydios... Bom, eu também adoro... Mas não DAQUELE jeito!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

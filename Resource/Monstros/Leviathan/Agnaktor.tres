@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://b87l0n0m0reeh"]
+
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_fth1b"]
+[ext_resource type="Texture2D" uid="uid://cbl34h2doue8u" path="res://Foto/Leviathan/MH3-Agnaktor_Icon.png" id="1_gvx6h"]
+
+[resource]
+script = ExtResource("1_fth1b")
+nome = "Agnaktor"
+foto = ExtResource("1_gvx6h")
+capturavel = true
+tipo = 12
+comentario2 = "CLACK CLACK CLACK.. CLACK CLACK... CLACK CLA- Ok, I'll stop Haha!"
+comentario2_br = "CLACK CLACK CLACK.. CLACK CLACK... CLACK CLA- Ta bom, vou parar Haha!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://5pjuvcokf0ju"]
+
+[ext_resource type="Texture2D" uid="uid://sm8bqvtcj205" path="res://Foto/Flying Wyvern/MHGU-Dreadqueen_Rathian_Icon.png" id="1_bo41k"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_wyn72"]
+
+[resource]
+script = ExtResource("2_wyn72")
+nome = "Dreadqueen Rathian"
+foto = ExtResource("1_bo41k")
+capturavel = true
+comentario2 = "Rathian more stronger.. version 418941"
+comentario2_br = "Rathian mais forte... versão 418941"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

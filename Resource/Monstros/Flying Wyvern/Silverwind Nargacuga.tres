@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cgumc3kf31lnm"]
+
+[ext_resource type="Texture2D" uid="uid://jqcwwyb0qlkq" path="res://Foto/Flying Wyvern/MHGU-Silverwind_Nargacuga_Icon.png" id="1_ddw2a"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_gfd6i"]
+
+[resource]
+script = ExtResource("2_gfd6i")
+nome = "Silverwind Nargacuga"
+foto = ExtResource("1_ddw2a")
+capturavel = true
+tipo = 3
+comentario2 = "Why's grandpa able to cut air?"
+comentario2_br = "Por que o vovô consegue cortar o ar?"
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

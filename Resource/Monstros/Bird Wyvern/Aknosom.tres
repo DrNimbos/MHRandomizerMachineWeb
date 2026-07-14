@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://pikxa6baviuu"]
+
+[ext_resource type="Texture2D" uid="uid://dl0xdwgylc1v4" path="res://Foto/Bird Wyvern/MHRS-Aknosom_Icon.png" id="1_gfery"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_ffmrt"]
+
+[resource]
+script = ExtResource("2_ffmrt")
+nome = "Aknosom"
+foto = ExtResource("1_gfery")
+afflicted = true
+capturavel = true
+tipo = 1
+comentario2 = "Uuu an Aknosom! They're so majestic in the wild.."
+comentario2_br = "Uuu um Aknosom! Eles são tão majestosos na natureza"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

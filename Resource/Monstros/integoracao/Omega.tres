@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bhshku12abb81"]
+
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_15bxm"]
+[ext_resource type="Texture2D" uid="uid://bbl2wje3m477w" path="res://Foto/integoracao/MHWA-Omega_Planetes_Icon.png" id="1_rqb5e"]
+
+[resource]
+script = ExtResource("1_15bxm")
+nome = "Omega Planetes"
+foto = ExtResource("1_rqb5e")
+tipo = 11
+comentario2 = "So you're telling me that portals to other dimensions is actually real?"
+comentario2_br = "Então você está me dizendo que portais para outras dimensões são reais?"
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

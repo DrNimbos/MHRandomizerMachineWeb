@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bfxyxajcbmhmp"]
+
+[ext_resource type="Texture2D" uid="uid://c6037isdovxku" path="res://Foto/Fanged Beast/MHGU-Elderfrost_Gammoth_Icon.png" id="1_dirpq"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_7okdb"]
+
+[resource]
+script = ExtResource("2_7okdb")
+nome = "Elderfrost Gammoth"
+foto = ExtResource("1_dirpq")
+tipo = 9
+comentario2 = "A deviant Gammoth huh? Please be careful... And don't forget Hot Drinks! Haha!"
+comentario2_br = "Uma Gammoth variante, hein? Por favor, tome cuidado... E não se esqueça das Hot Drinks! Haha!"
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

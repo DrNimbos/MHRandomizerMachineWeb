@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dc041b2wunxb8"]
+
+[ext_resource type="Texture2D" uid="uid://cj7ac1lbwgomo" path="res://Foto/Fanged Beast/MHGU-Snowbaron_Lagombi_Icon.png" id="1_xw8ve"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_uyktp"]
+
+[resource]
+script = ExtResource("2_uyktp")
+nome = "Snowbaron Lagombi"
+foto = ExtResource("1_xw8ve")
+tipo = 9
+comentario2 = "STILL wish I could pet it............."
+comentario2_br = "AINDA QUERIA que eu pudesse fazer carinho nele............."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

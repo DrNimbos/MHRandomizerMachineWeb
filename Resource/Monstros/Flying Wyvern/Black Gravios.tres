@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bgy1bd2n147bt"]
+
+[ext_resource type="Texture2D" uid="uid://cjmgx3q4nbd3x" path="res://Foto/Flying Wyvern/1stGen-Black_Gravios_Icon.png" id="1_xg4ji"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_lw8r6"]
+
+[resource]
+script = ExtResource("2_lw8r6")
+nome = "Black Gravios"
+foto = ExtResource("1_xg4ji")
+capturavel = true
+tipo = 3
+comentario2 = "Wonder what's the maximum temperature a Gravios can be resist without getting hurt.."
+comentario2_br = "Fico imaginando qual é a temperatura máxima que um Gravios consegue suportar sem se ferir..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

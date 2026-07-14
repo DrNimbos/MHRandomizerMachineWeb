@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cp8d2qk4lygf5"]
+
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_1na7f"]
+[ext_resource type="Texture2D" uid="uid://c52e1h8pw4fkb" path="res://Foto/Leviathan/MH3-Lagiacrus_Icon.png" id="1_ahqnk"]
+
+[resource]
+script = ExtResource("1_1na7f")
+nome = "Lagiacrus"
+foto = ExtResource("1_ahqnk")
+capturavel = true
+tipo = 12
+comentario2 = "The Lord of The Seas! If you're challenge it underwater, focus on it's back!"
+comentario2_br = "O Lord dos Mares! Se for enfrentá-lo debaixo d'água, concentre-se nas costas dele!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

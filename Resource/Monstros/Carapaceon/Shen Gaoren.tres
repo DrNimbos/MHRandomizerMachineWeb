@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bqgtfieeo2w1q"]
+
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_lwddt"]
+[ext_resource type="Texture2D" uid="uid://bonx1wayg0lfs" path="res://Foto/Carapaceon/MHFUiOS-Shen_Gaoren_Icon.png" id="1_rup5s"]
+
+[resource]
+script = ExtResource("1_lwddt")
+nome = "Shen Gaoren"
+foto = ExtResource("1_rup5s")
+tipo = 4
+comentario2 = "An abnormaly rare monster to see.. I still wish I could see one up close!"
+comentario2_br = "Um monstro extremamente raro de se ver... Eu ainda queria poder ver um de perto!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://b640y3en6g14s"]
+
+[ext_resource type="Texture2D" uid="uid://rgx5bwhxunu0" path="res://Foto/Cephalopod/MHWA-Xu_Wu_Icon.png" id="1_khl3a"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_ktobe"]
+
+[resource]
+script = ExtResource("2_ktobe")
+nome = "Xu Wu"
+foto = ExtResource("1_khl3a")
+capturavel = true
+tipo = 5
+comentario2 = "Apparently this one of the new monsters found in the Forbidden Lands.. It's quite scary..."
+comentario2_br = "Ao que parece, este é um dos novos monstros encontrados nas Terras Proibidas... Ele é bem assustador..."
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dbv1lsp0itspo"]
+
+[ext_resource type="Texture2D" uid="uid://ow53nk443x5m" path="res://Foto/Bird Wyvern/MHFUiOS-Hypnocatrice_Icon.png" id="1_cmsal"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_mobql"]
+
+[resource]
+script = ExtResource("2_mobql")
+nome = "Hypnocatrice"
+foto = ExtResource("1_cmsal")
+capturavel = true
+tipo = 1
+comentario2 = "During my time in Mezeporta, I bought an Hypnocatrice feather just to help me sleep... It worked for like, 2 days.."
+comentario2_br = "Durante o tempo que passei em Mezeporta, comprei uma pena de Hypnocatrice só para me ajudar a dormir... Funcionou por uns dois dias..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bmm8dcwoabf23"]
+
+[ext_resource type="Texture2D" uid="uid://dm2npqwh6pmrh" path="res://Foto/Flying Wyvern/MHFrontier-Varsablos_Icon.png" id="1_noinr"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_wgcfx"]
+
+[resource]
+script = ExtResource("2_wgcfx")
+nome = "Varusaburosu"
+foto = ExtResource("1_noinr")
+capturavel = true
+tipo = 3
+comentario2 = "Get your football skills ready!"
+comentario2_br = "Prepare suas habilidades no futebol!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

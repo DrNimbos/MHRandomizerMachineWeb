@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://b2xu1h6ojqvme"]
+
+[ext_resource type="Texture2D" uid="uid://c57nsq7rujdv1" path="res://Foto/Flying Wyvern/MHFrontier-Pobolbarm_Icon.png" id="1_pffxy"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_dm6uf"]
+
+[resource]
+script = ExtResource("2_dm6uf")
+nome = "Poborubarumu"
+foto = ExtResource("1_pffxy")
+capturavel = true
+tipo = 3
+comentario2 = "I must imagine what it's like being controlled by this monsters music.."
+comentario2_br = "Tento imaginar como é ser controlado pela música desse monstro..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

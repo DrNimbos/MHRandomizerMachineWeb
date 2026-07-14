@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dlesbo25hb6ci"]
+
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_da5lc"]
+[ext_resource type="Texture2D" uid="uid://brwjx5d158p2f" path="res://Foto/Snake Wyvern/MH4U-Najarala_Icon.png" id="1_nodiw"]
+
+[resource]
+script = ExtResource("1_da5lc")
+nome = "Najarala"
+foto = ExtResource("1_nodiw")
+capturavel = true
+tipo = 15
+comentario2 = "I'am always shocked to be remembered of it's size..."
+comentario2_br = "Sempre fico impressionado ao ser lembrado do tamanho dele..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

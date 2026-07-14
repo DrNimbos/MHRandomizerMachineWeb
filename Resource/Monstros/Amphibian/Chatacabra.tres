@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://k4p0s65ywa54"]
+
+[ext_resource type="Texture2D" uid="uid://b2g3ltksibrlj" path="res://Foto/Amphibian/MHWA-Chatacabra_Icon.png" id="1_qtldc"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_v63ki"]
+
+[resource]
+script = ExtResource("1_v63ki")
+nome = "Chatacabra"
+foto = ExtResource("1_qtldc")
+tempered = true
+capturavel = true
+comentario2 = "Oh you poor thing... Having to live in the Windward Plains must be hell.."
+comentario2_br = "Tadinho... Ter que viver nas Planices Zéfiras deve ser um inferno"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

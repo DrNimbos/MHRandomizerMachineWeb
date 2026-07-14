@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://nlep465mf0bt"]
+
+[ext_resource type="Texture2D" uid="uid://cg3xhn7gu1kjn" path="res://Foto/Elder Dragon/MH4U-Dalamadur_Icon.png" id="1_e3mnd"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_o308x"]
+
+[resource]
+script = ExtResource("2_o308x")
+nome = "Dalamadur"
+foto = ExtResource("1_e3mnd")
+tipo = 8
+comentario2 = "How does this creature even exist!?!"
+comentario2_br = "Como é que essa criatura sequer existe!?!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

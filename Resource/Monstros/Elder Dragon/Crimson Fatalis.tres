@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://c8atvn0a0cvig"]
+
+[ext_resource type="Texture2D" uid="uid://kmbqwi0bm8ev" path="res://Foto/Elder Dragon/MHWI-CrimsonFat.png" id="1_yre0b"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_r5f1q"]
+
+[resource]
+script = ExtResource("2_r5f1q")
+nome = "Crimson Fatalis"
+foto = ExtResource("1_yre0b")
+tipo = 8
+comentario2 = "An agrier version of an already Angry Dragon... Huh.."
+comentario2_br = "Uma versão ainda mais furiosa de um Dragão já furioso... Huh..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

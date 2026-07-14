@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://d0488qryf381r"]
+
+[ext_resource type="Texture2D" uid="uid://c0bic3402onng" path="res://Foto/Bird Wyvern/MHP3-Great_Wroggi_Icon.png" id="1_7qf3n"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_bkvpi"]
+
+[resource]
+script = ExtResource("2_bkvpi")
+nome = "Great Wroggi"
+foto = ExtResource("1_7qf3n")
+capturavel = true
+tipo = 1
+comentario2 = "They are cute and ugly at the same time, and I don't know what to think about them."
+comentario2_br = "Eles são fofos e feios ao mesmo tempo, e não sei o que pensar sobre eles."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://duk02ovesm7an"]
+
+[ext_resource type="Texture2D" uid="uid://ivyxpb7kseco" path="res://Foto/Flying Wyvern/MHFrontier-Zenith_Anorpatis_Icon (1).png" id="1_togi4"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_1hkmj"]
+
+[resource]
+script = ExtResource("2_1hkmj")
+nome = "Zenith Anorupatisu"
+foto = ExtResource("1_togi4")
+capturavel = true
+comentario2 = "..."
+comentario2_br = "..."
+reacao = "5"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

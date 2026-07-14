@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://d2ih6sp2b15j4"]
+
+[ext_resource type="Texture2D" uid="uid://xalvbwnnw748" path="res://Foto/Fanged Beast/MHRS-Bishaten_Icon.png" id="1_n26wb"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_h7lon"]
+
+[resource]
+script = ExtResource("2_h7lon")
+nome = "Bishaten"
+foto = ExtResource("1_n26wb")
+capturavel = true
+tipo = 9
+comentario2 = "I remember just minding my own business and one Bishaten just throwed a giant ass fruit at me, I was so confused! Haha!"
+comentario2_br = "Lembro que eu estava lá na minha, de boa, quando um Bishaten simplesmente jogou uma fruta gigantesca em mim, fiquei muito confusa! Haha!"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

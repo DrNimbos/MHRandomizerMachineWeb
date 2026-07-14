@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://p2gtpooiidsb"]
+
+[ext_resource type="Texture2D" uid="uid://bi6opvslhiyx7" path="res://Foto/Piscine Wyvern/MHWI-Jyuratodus_Icon.png" id="1_ksevf"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_isp7b"]
+
+[resource]
+script = ExtResource("2_isp7b")
+nome = "Jyuratodus"
+foto = ExtResource("1_ksevf")
+capturavel = true
+tipo = 14
+comentario2 = "Do you think they taste good?"
+comentario2_br = "Você acha que eles são gostosos de comer?"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

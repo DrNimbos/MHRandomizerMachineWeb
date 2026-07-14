@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cbv68m8j5r1q"]
+
+[ext_resource type="Texture2D" uid="uid://b84vvhs4kml1d" path="res://Foto/Leviathan/MHFrontier-Pokaradon_Icon.png" id="1_jjk6n"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_qhsb3"]
+
+[resource]
+script = ExtResource("2_qhsb3")
+nome = "Pokaradon"
+foto = ExtResource("1_jjk6n")
+capturavel = true
+comentario2 = "They're very cute! ..."
+comentario2_br = "Eles são muito fofos! ..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

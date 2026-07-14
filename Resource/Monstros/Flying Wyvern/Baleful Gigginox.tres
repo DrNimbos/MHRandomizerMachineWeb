@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://ncuqyqqwg54l"]
+
+[ext_resource type="Texture2D" uid="uid://cwkud64i1y3wk" path="res://Foto/Flying Wyvern/MHP3-Baleful_Gigginox_Icon.png" id="1_ihos4"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_cna77"]
+
+[resource]
+script = ExtResource("2_cna77")
+nome = "Baleful Gigginox"
+foto = ExtResource("1_ihos4")
+capturavel = true
+tipo = 3
+comentario2 = "I have a friend that REALLY loves this monster.. Can you please bring it something from it so I can give her as a gift?"
+comentario2_br = "Tenho uma amiga que adora MESMA esse monstro... Você poderia trazer algo relacionado a ele para eu dar de presente?"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

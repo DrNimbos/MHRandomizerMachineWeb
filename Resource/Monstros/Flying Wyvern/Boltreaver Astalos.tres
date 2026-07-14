@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://16sh88c4oqt"]
+
+[ext_resource type="Texture2D" uid="uid://5qe5jm85kpjc" path="res://Foto/Flying Wyvern/MHGU-Boltreaver_Astalos_Icon.png" id="1_3ljq4"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_dv8t6"]
+
+[resource]
+script = ExtResource("2_dv8t6")
+nome = "Boltreaver Astalos"
+foto = ExtResource("1_3ljq4")
+capturavel = true
+comentario2 = "An even MORE energetic Astalos?"
+comentario2_br = "Um Astalos ainda MAIS energético?"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

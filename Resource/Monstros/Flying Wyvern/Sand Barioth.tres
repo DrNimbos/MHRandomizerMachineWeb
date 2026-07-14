@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bgeodb6woypet"]
+
+[ext_resource type="Texture2D" uid="uid://bihv0mowojjyy" path="res://Foto/Flying Wyvern/MHP3-Sand_Barioth_Icon.png" id="1_laucw"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_7m48u"]
+
+[resource]
+script = ExtResource("2_7m48u")
+nome = "Sand Barioth"
+foto = ExtResource("1_laucw")
+capturavel = true
+tipo = 3
+comentario2 = "I was really shocked when I found out that the red part of his head is actually BLOOD. Haha!"
+comentario2_br = "Fiquei muito chocada quando descobri que a parte vermelha da cabeça dele é, na verdade, SANGUE. Haha!"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

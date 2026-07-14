@@ -1,0 +1,36 @@
+[gd_resource type="Theme" format=3 uid="uid://lyfsbtiils4o"]
+
+[ext_resource type="FontFile" uid="uid://b34isdjuniwb3" path="res://MONSTER HUNTER TYPE 2.TTF" id="1_kwjlq"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_44w2e"]
+bg_color = Color(0.12931064, 0.013405927, 0.008793951, 0.36862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kwjlq"]
+bg_color = Color(0.5434595, 0.13011444, 0.10133887, 0.36862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_256ok"]
+bg_color = Color(0.87652236, 0.26712468, 0.21801588, 0.36862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8u1he"]
+bg_color = Color(0.87652236, 0.26712468, 0.21801588, 0.36862746)
+
+[resource]
+CheckBox/colors/checkbox_checked_color = Color(0.59607846, 0, 0, 1)
+CheckBox/colors/font_color = Color(0, 0, 0, 1)
+CheckBox/colors/font_hover_color = Color(0, 0, 0, 1)
+CheckBox/colors/font_hover_pressed_color = Color(0.59607846, 0, 0, 1)
+CheckBox/colors/font_pressed_color = Color(0, 0, 0, 1)
+CheckBox/constants/outline_size = 2
+CheckBox/font_sizes/font_size = 30
+CheckBox/fonts/font = ExtResource("1_kwjlq")
+CheckBox/styles/disabled = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/disabled_mirrored = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/focus = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/hover = SubResource("StyleBoxFlat_kwjlq")
+CheckBox/styles/hover_mirrored = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/hover_pressed = SubResource("StyleBoxFlat_256ok")
+CheckBox/styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/normal = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/normal_mirrored = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/pressed = SubResource("StyleBoxFlat_8u1he")
+CheckBox/styles/pressed_mirrored = SubResource("StyleBoxFlat_44w2e")

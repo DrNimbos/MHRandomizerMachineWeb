@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bhsyqar3vq8vd"]
+
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_7cmvu"]
+[ext_resource type="Texture2D" uid="uid://3ca40idpjs18" path="res://Foto/Neopteron/MHFUiOS-Vespoid_Icon.png" id="1_l6xkm"]
+
+[resource]
+script = ExtResource("1_7cmvu")
+nome = "Vespoid Queen"
+foto = ExtResource("1_l6xkm")
+tipo = 13
+comentario2 = "Why does this exist."
+comentario2_br = "Porque você existe?"
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

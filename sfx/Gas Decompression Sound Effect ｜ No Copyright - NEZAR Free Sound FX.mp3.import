@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://yo48m36lu24t"
+path="res://.godot/imported/Gas Decompression Sound Effect ｜ No Copyright - NEZAR Free Sound FX.mp3-d064936423bcd4df6d0405701a53cbf6.mp3str"
+
+[deps]
+
+source_file="res://sfx/Gas Decompression Sound Effect ｜ No Copyright - NEZAR Free Sound FX.mp3"
+dest_files=["res://.godot/imported/Gas Decompression Sound Effect ｜ No Copyright - NEZAR Free Sound FX.mp3-d064936423bcd4df6d0405701a53cbf6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

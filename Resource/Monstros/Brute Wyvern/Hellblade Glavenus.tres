@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://b3wru8is8p7e2"]
+
+[ext_resource type="Texture2D" uid="uid://cvh7cf1ulhhu1" path="res://Foto/Brute Wyvern/MHGU-Hellblade_Glavenus_Icon.png" id="1_l4qex"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_8dhi7"]
+
+[resource]
+script = ExtResource("2_8dhi7")
+nome = "Hellblade Glavenus"
+foto = ExtResource("1_l4qex")
+tipo = 2
+comentario2 = "A Glavenus Deviant!?! It looks like it came straight from hell!"
+comentario2_br = "Uma deviant do Glavenus!?!! Parece que veio do inferno!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

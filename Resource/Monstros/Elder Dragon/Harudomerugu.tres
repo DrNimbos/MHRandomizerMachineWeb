@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://yahgqvxiksjk"]
+
+[ext_resource type="Texture2D" uid="uid://ivok4r88mi26" path="res://Foto/Elder Dragon/MHFrontier-Haldmerg_Icon.png" id="1_6uvwf"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_gms4e"]
+
+[resource]
+script = ExtResource("2_gms4e")
+nome = "Harudomerugu"
+foto = ExtResource("1_6uvwf")
+tipo = 8
+comentario2 = "One of the few Elder Dragons I've managed to see with my own eyes! We saw it on an expedition, I remember the feeling of being cutted from the inside... thankfully were ok!"
+comentario2_br = "Um dos poucos Elder Dragons que consegui ver com meus próprios olhos! Nós o vimos durante uma expedição, lembro-me da sensação de ser cortada que dentro de mim... felizmente, ficamos bem!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dreulbhxub43y"]
+
+[ext_resource type="Texture2D" uid="uid://bv136xctoyjvi" path="res://Foto/Flying Wyvern/MHFrontier-Zenaseris_Icon.png" id="1_7i13q"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_omeug"]
+
+[resource]
+script = ExtResource("2_omeug")
+nome = "Zenaserisu"
+foto = ExtResource("1_7i13q")
+capturavel = true
+tipo = 3
+comentario2 = "I'd love to see one too, all the water it releases must be refrexing.. Right?"
+comentario2_br = "Eu adoraria ver um também, toda essa água que ele libera deve ser refrescante... né?"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

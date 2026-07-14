@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://b00akn1j8wexb"]
+
+[ext_resource type="Texture2D" uid="uid://bj1tsj3gwh2sm" path="res://Foto/Leviathan/MHFrontier-Zenith_Barlagual_Icon.png" id="1_t6cej"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_5kv2s"]
+
+[resource]
+script = ExtResource("2_5kv2s")
+nome = "Zenith Barlagual"
+foto = ExtResource("1_t6cej")
+comentario2 = "Good Luck! Careful for the suck."
+comentario2_br = "Boa Sorte!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://d3segl4od16dw"]
+
+[ext_resource type="Texture2D" uid="uid://cqjv2tumonoje" path="res://Foto/Flying Wyvern/MHWI-Shrieking_Legiana_Icon.png" id="1_xb8t3"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_4t8jd"]
+
+[resource]
+script = ExtResource("2_4t8jd")
+nome = "Shrieking Legiana"
+foto = ExtResource("1_xb8t3")
+capturavel = true
+comentario2 = "Hearing their roar from the skies is scary.."
+comentario2_br = "Ouvir o rugido deles vindo dos céus é assustador..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

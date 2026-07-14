@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cb80yjbqpq8n2"]
+
+[ext_resource type="Texture2D" uid="uid://crvfuh3vwumow" path="res://Foto/Fanged Beast/MHFrontier-Kamu_Orgaron_Icon.png" id="1_u2g7p"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_5emlt"]
+
+[resource]
+script = ExtResource("2_5emlt")
+nome = "Kamu Orugaron"
+foto = ExtResource("1_u2g7p")
+capturavel = true
+tipo = 9
+comentario2 = "The way they both live together.. I find it very inspiring."
+comentario2_br = "A maneira como os dois vivem juntos... acho muito inspiradora."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

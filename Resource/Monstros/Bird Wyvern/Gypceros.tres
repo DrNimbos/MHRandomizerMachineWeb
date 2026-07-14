@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://b1eevemplk001"]
+
+[ext_resource type="Texture2D" uid="uid://3ng5eyut0c1e" path="res://Foto/Bird Wyvern/1stGen-Gypceros_Icon.png" id="1_722gx"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_k6qsf"]
+
+[resource]
+script = ExtResource("1_k6qsf")
+nome = "Gypceros"
+foto = ExtResource("1_722gx")
+capturavel = true
+tipo = 1
+comentario2 = "A Gypceros one time STOLE a food that I prepared for our group.. I'am still mad about that."
+comentario2_br = "Uma vez, um Gypceros ROUBOU uma comida que eu tinha preparado para o nosso grupo... Ainda estou irritada com isso."
+reacao = "4"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

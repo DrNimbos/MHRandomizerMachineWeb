@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://eb7di5ramhu3"]
+
+[ext_resource type="Texture2D" uid="uid://bgbqa2qhkrq03" path="res://Foto/Bird Wyvern/1stGen-Velocidrome_Icon.png" id="1_f6e4f"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_tdep8"]
+
+[resource]
+script = ExtResource("1_tdep8")
+nome = "Velocidrome"
+foto = ExtResource("1_f6e4f")
+capturavel = true
+tipo = 1
+comentario2 = "Imagine getting middle fingered by a Velocidrome... Hmm.."
+comentario2_br = "Imagina levar um dedo do meio de um Velocidrome... Hmm..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

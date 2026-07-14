@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://h4sylrxpxuts"]
+
+[ext_resource type="Texture2D" uid="uid://cqvh5wljbnex5" path="res://Foto/Brute Wyvern/MHFrontier-Zenith_Gasrabazra_Icon.png" id="1_8ebo3"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_mu6fx"]
+
+[resource]
+script = ExtResource("2_mu6fx")
+nome = "Zenith Gasurabazura"
+foto = ExtResource("1_8ebo3")
+capturavel = true
+tipo = 2
+comentario2 = "I heard it likes to troll Hunters that try to get it's antidote... That's funny!"
+comentario2_br = "Ouvi dizer que ele gosta de trollar os Hunters que tentam pegar o seu antídoto... Deve ser engraçado!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

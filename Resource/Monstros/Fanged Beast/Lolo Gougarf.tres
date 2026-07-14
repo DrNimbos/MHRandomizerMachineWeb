@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://b0dqfybxl35vf"]
+
+[ext_resource type="Texture2D" uid="uid://cuvvgv6ik5ax0" path="res://Foto/Fanged Beast/MHFrontier-Lolo_Gougarf_Icon.png" id="1_rkv1d"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_w4d5w"]
+
+[resource]
+script = ExtResource("2_w4d5w")
+nome = "Lolo Gougarf"
+foto = ExtResource("1_rkv1d")
+capturavel = true
+tipo = 9
+comentario2 = "I find very funny how their lifestyle consist of throwing hands with each other.."
+comentario2_br = "Acho muito engraçado como o estilo de vida deles consiste em cair na porrada entre si..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

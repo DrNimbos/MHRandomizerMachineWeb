@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bv6fo2mpmqc2s"]
+
+[ext_resource type="Texture2D" uid="uid://cpw8hi8asrtpu" path="res://Foto/Elder Dragon/MHWA-Gogmazios_Icon.png" id="1_ecd02"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_85kse"]
+
+[resource]
+script = ExtResource("2_85kse")
+nome = "Gogmazios"
+foto = ExtResource("1_ecd02")
+tipo = 8
+comentario2 = "I still ask myself how can a dragon this large, manage to steal all the gunpowder and weapons while no one notices..."
+comentario2_br = "Ainda me pergunto como um dragão tão grande consegue roubar toda a pólvora e as armas sem que ninguém perceba..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

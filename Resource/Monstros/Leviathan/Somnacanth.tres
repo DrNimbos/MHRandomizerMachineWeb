@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cipb5aqx2nqos"]
+
+[ext_resource type="Texture2D" uid="uid://1rqiwlsovkmq" path="res://Foto/Leviathan/MHRS-Somnacanth_Icon.png" id="1_5f2nn"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_qvu3l"]
+
+[resource]
+script = ExtResource("1_qvu3l")
+nome = "Somnacanth"
+foto = ExtResource("1_5f2nn")
+capturavel = true
+tipo = 12
+comentario2 = "Somnacanth appearance is really unique to me.."
+comentario2_br = "A aparência do Somnacanth é realmente única para mim..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

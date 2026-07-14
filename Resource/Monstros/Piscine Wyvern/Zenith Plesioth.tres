@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://ceh5hlgc6ovui"]
+
+[ext_resource type="Texture2D" uid="uid://cksnplnt3kn57" path="res://Foto/Piscine Wyvern/MHFrontier-Zenith_Plesioth_Icon.png" id="1_hcekk"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_bfsgl"]
+
+[resource]
+script = ExtResource("2_bfsgl")
+nome = "Zenith Plesioth"
+foto = ExtResource("1_hcekk")
+tipo = 14
+comentario2 = "IT SCREAMS?!?!?"
+comentario2_br = "ELE GRITA?!?!!?"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

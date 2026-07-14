@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cpqixr7xnhxgh"]
+
+[ext_resource type="Texture2D" uid="uid://cbhi1hm7s73ah" path="res://Foto/Flying Wyvern/MHWI-Legiana_Icon.png" id="1_hf646"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_270on"]
+
+[resource]
+script = ExtResource("2_270on")
+nome = "Legiana"
+foto = ExtResource("1_hf646")
+tempered = true
+a_tempered = true
+capturavel = true
+tipo = 3
+comentario2 = "Hearing their roar from the skies is scary.."
+comentario2_br = "Ouvir o rugido deles vindo dos céus é assustador..."
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dicl65udnfihs"]
+
+[ext_resource type="Texture2D" uid="uid://bwv2ga4k4wptm" path="res://Foto/Carapaceon/MHFrontier-Zenith_Daimyo_Hermitaur_Icon.png" id="1_07ce1"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_kq0jx"]
+
+[resource]
+script = ExtResource("1_kq0jx")
+nome = "Zenith Daimyo Hermitaur"
+foto = ExtResource("1_07ce1")
+tipo = 4
+comentario2 = "Good Luck!"
+comentario2_br = "Boa Sorte!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bnn7f3pcbs2ue"
+path="res://.godot/imported/Page Turn Sound Effect! Flip Sound Effect! - Mathew Aleman Lim.mp3-f10611a02dcb37f14b1feee667082bb5.mp3str"
+
+[deps]
+
+source_file="res://sfx/Page Turn Sound Effect! Flip Sound Effect! - Mathew Aleman Lim.mp3"
+dest_files=["res://.godot/imported/Page Turn Sound Effect! Flip Sound Effect! - Mathew Aleman Lim.mp3-f10611a02dcb37f14b1feee667082bb5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

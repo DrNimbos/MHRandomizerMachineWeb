@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://udgmyijtw13k"]
+
+[ext_resource type="Texture2D" uid="uid://cjos2ihkhlbqh" path="res://Foto/Bird Wyvern/MHFrontier-Pale_Hypnocatrice_Icon.png" id="1_5cw45"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_8iq4x"]
+
+[resource]
+script = ExtResource("2_8iq4x")
+nome = "Silver Hypnocatrice"
+foto = ExtResource("1_5cw45")
+tipo = 1
+comentario2 = "I know them only from books; they are far too rare in the wild..."
+comentario2_br = "Só os conheço pelos livros, são raros demais na natureza..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

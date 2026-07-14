@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bdxtlstrmcwfl"]
+
+[ext_resource type="Texture2D" uid="uid://b7xxebflqwpu6" path="res://Foto/Brute Wyvern/MH4U-Raging_Brachydios_Icon.png" id="1_pmp6k"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_7jn52"]
+
+[resource]
+script = ExtResource("2_7jn52")
+nome = "Raging Brachydios"
+foto = ExtResource("1_pmp6k")
+tipo = 2
+comentario2 = "An AMAZING specimen, and very dangerous too.. Be careful!"
+comentario2_br = "Um espécime INCRÍVEL, e muito perigoso também... Cuidado!"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

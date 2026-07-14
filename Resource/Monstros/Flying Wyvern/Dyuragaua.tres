@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cnht0tlgiae"]
+
+[ext_resource type="Texture2D" uid="uid://ddoaoje5ouw7e" path="res://Foto/Flying Wyvern/MHFrontier-Duragaua_Icon.png" id="1_lon7o"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_v3een"]
+
+[resource]
+script = ExtResource("2_v3een")
+nome = "Dyuragaua"
+foto = ExtResource("1_lon7o")
+capturavel = true
+tipo = 3
+comentario2 = "A very curious monster... Wish I could have more time to study it on when I was at Mezeporta.."
+comentario2_br = "Um monstro muito curioso... Quem dera eu tivesse tido mais tempo para estudá-lo quando estava em Mezeporta..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

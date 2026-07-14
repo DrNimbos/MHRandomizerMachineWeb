@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cmm1qkfktjuga"]
+
+[ext_resource type="Texture2D" uid="uid://cqmpq37c7dv2b" path="res://Foto/Flying Wyvern/1stGen-Gravios_Icon.png" id="1_d41em"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_46bxp"]
+
+[resource]
+script = ExtResource("2_46bxp")
+nome = "Gravios"
+foto = ExtResource("1_d41em")
+capturavel = true
+tipo = 3
+comentario2 = "The Armor Wyvern! It's shells can resist the highest of temperatures!"
+comentario2_br = "O Armor Wyvern! Suas carapaças conseguem resistir às temperaturas mais elevadas!"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cpav05nwy8io5"]
+
+[ext_resource type="Texture2D" uid="uid://d23v548ateor7" path="res://Foto/Leviathan/MHP3-Glacial_Agnaktor_Icon.png" id="1_786k4"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_pw120"]
+
+[resource]
+script = ExtResource("1_pw120")
+nome = "Glacial Agnaktor"
+foto = ExtResource("1_786k4")
+tipo = 12
+comentario2 = "Don't forget to bring an Fire Weapon! (or an explosive one Haha!)"
+comentario2_br = "Não se esqueça de levar uma arma de fogo! (ou uma explosiva, haha!)"
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

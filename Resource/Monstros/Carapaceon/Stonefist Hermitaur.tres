@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cb6evciw0mi8y"]
+
+[ext_resource type="Texture2D" uid="uid://phgnt4ut7gqe" path="res://Foto/Carapaceon/MHGU-Stonefist_Hermitaur_Icon.png" id="1_ho5hn"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_mpub7"]
+
+[resource]
+script = ExtResource("2_mpub7")
+nome = "Stonefist Hermitaur"
+foto = ExtResource("1_ho5hn")
+capturavel = true
+tipo = 4
+comentario2 = "Their giant claws are unique!"
+comentario2_br = "Sua garra gigante é bem unica!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

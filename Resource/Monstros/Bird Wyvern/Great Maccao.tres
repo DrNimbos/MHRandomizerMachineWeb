@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dgcc6hkks3xh"]
+
+[ext_resource type="Texture2D" uid="uid://cvip10qs5uxxu" path="res://Foto/Bird Wyvern/MHGU-Great_Maccao_Icon.png" id="1_kxwbs"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_fxsi5"]
+
+[resource]
+script = ExtResource("2_fxsi5")
+nome = "Great Maccao"
+foto = ExtResource("1_kxwbs")
+tipo = 1
+comentario2 = "Their kicks hurt... I speak from personal experience."
+comentario2_br = "Os chutes deles doem... Falo por experiência própria."
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

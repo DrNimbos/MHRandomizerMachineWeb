@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cr2x5ge02du41"]
+
+[ext_resource type="Texture2D" uid="uid://c8bakn1xq8e57" path="res://Foto/Bird Wyvern/MHFrontier-Toridcless_Icon.png" id="1_13h4q"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_dlfc6"]
+
+[resource]
+script = ExtResource("2_dlfc6")
+nome = "Toridcless"
+foto = ExtResource("1_13h4q")
+capturavel = true
+tipo = 1
+comentario2 = "One of my scariest stories in the wild was seeing one of these seamly hunting me... Thankfully it got distracted.."
+comentario2_br = "Uma das minhas histórias mais assustadoras na natureza foi ver um desses bichos aparentemente me caçando... Felizmente, ele acabou se distraindo..."
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

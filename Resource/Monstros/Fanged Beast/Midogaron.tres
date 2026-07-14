@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://wxuphp7ggqxn"]
+
+[ext_resource type="Texture2D" uid="uid://biv3au40hlcxq" path="res://Foto/Fanged Beast/MHFrontier-Midogaron_Icon.png" id="1_s4yqh"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_u6waw"]
+
+[resource]
+script = ExtResource("1_u6waw")
+nome = "Midogaron"
+foto = ExtResource("1_s4yqh")
+capturavel = true
+tipo = 9
+comentario2 = "At first.. I didn't believe it could jump so fast that for us looks like teleporting.. Until we saw one in the wild..."
+comentario2_br = "No começo... eu não acreditava que ele pudesse saltar tão rápido, a ponto de parecer teletransporte para nós... Até que vimos um na natureza..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

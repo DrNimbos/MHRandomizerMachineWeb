@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://lm08fc6nd7k3"]
+
+[ext_resource type="Texture2D" uid="uid://dvjngw3xjoyef" path="res://Foto/Elder Dragon/MHWI-Safi_27jiiva_Icon.png" id="1_0ituc"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_gpqsj"]
+
+[resource]
+script = ExtResource("2_gpqsj")
+nome = "Safi'Jiiva"
+foto = ExtResource("1_0ituc")
+tipo = 8
+comentario2 = "The adult form of Xeno'Jiiva! Better bring some friends to help!"
+comentario2_br = "A forma adulta do Xeno'Jiiva! É melhor trazer alguns amigos para ajudar!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://b6i7rbtsbpdec"]
+
+[ext_resource type="Texture2D" uid="uid://cukp3guih8uo0" path="res://Foto/Leviathan/MHGU-Mizutsune_Icon.png" id="1_457b7"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_fndoa"]
+
+[resource]
+script = ExtResource("1_fndoa")
+nome = "Mizutsune"
+foto = ExtResource("1_457b7")
+capturavel = true
+tipo = 12
+comentario2 = "My favorite of the Fated Four! Mostly due to it's bubbles! Haha!"
+comentario2_br = "O meu favorito do \"Fated Four\"! Principalmente por causa das suas bolhas! Haha!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

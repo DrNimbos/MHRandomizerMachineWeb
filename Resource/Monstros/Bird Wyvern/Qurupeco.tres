@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://ba7ibih0vil5g"]
+
+[ext_resource type="Texture2D" uid="uid://ba4ucj472ygvm" path="res://Foto/Bird Wyvern/MH3-Qurupeco_Icon.png" id="1_0lovg"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_wkd0r"]
+
+[resource]
+script = ExtResource("2_wkd0r")
+nome = "Qurupeco"
+foto = ExtResource("1_0lovg")
+capturavel = true
+tipo = 1
+comentario2 = "I still have a crown made of Qurupeco feathers at home... It's a valiable gift for someone!"
+comentario2_br = "Ainda tenho uma coroa feita de penas de Qurupeco em casa... É um presente valioso para alguém!"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

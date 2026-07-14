@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dmkeef3m31hsu"]
+
+[ext_resource type="Texture2D" uid="uid://cq302fysoj8cd" path="res://Foto/Piscine Wyvern/1stGen-Plesioth_Icon.png" id="1_ctuxi"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_tuwpb"]
+
+[resource]
+script = ExtResource("2_tuwpb")
+nome = "Plesioth"
+foto = ExtResource("1_ctuxi")
+capturavel = true
+tipo = 14
+comentario2 = "I'am not a Hunter, but is it true that they say that Plesioth can bend space and time with it's hipcheck?"
+comentario2_br = "Não sou uma Hunter, mas é verdade o que dizem? Que o Plesioth consegue distorcer o espaço e o tempo com sua investida de quadril?"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

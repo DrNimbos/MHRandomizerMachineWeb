@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cacevya11yqyk"]
+
+[ext_resource type="Texture2D" uid="uid://bsljkgj1s47e5" path="res://Foto/Flying Wyvern/MHFrontier-Bogabador_Icon.png" id="1_ij5f5"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_2ahna"]
+
+[resource]
+script = ExtResource("2_2ahna")
+nome = "Bogadorumu"
+foto = ExtResource("1_ij5f5")
+tipo = 3
+comentario2 = "Never got to see one alive... Unfortunately"
+comentario2_br = "Nunca cheguei a ver um vivo... Infelizmente."
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://cdlliqj42s8vx"]
+
+[ext_resource type="Texture2D" uid="uid://c0q2n54sj0ybd" path="res://Foto/Elder Dragon/MHWI-Velkhana_Icon.png" id="1_v2171"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_wm6dg"]
+
+[resource]
+script = ExtResource("2_wm6dg")
+nome = "Velkhana"
+foto = ExtResource("1_v2171")
+tipo = 8
+comentario2 = "Despite their elegance, they are quite violent creatures.. Be careful!"
+comentario2_br = "Apesar de sua elegância, são criaturas bastante violentas... Cuidad"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

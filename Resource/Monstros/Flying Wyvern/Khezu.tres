@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://b681jv6twwhfn"]
+
+[ext_resource type="Texture2D" uid="uid://bn64trbiiub1h" path="res://Foto/Flying Wyvern/1stGen-Khezu_Icon.png" id="1_oujpk"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_nb46x"]
+
+[resource]
+script = ExtResource("2_nb46x")
+nome = "Khezu"
+foto = ExtResource("1_oujpk")
+capturavel = true
+tipo = 3
+comentario2 = "When I was younger, I couldn't stop laughing at Khezu jokes, but as I got older, I just started finding Khezu really interesting.."
+comentario2_br = "Quando eu era mais jovem, não conseguia parar de rir das piadas sobre o Khezu, mas quanto mais eu fui crescendo, passei a achar o Khezu realmente interessante."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

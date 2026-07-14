@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bgoyyccn1fgt4"]
+
+[ext_resource type="Texture2D" uid="uid://bpstxwo8ongrk" path="res://Foto/Flying Wyvern/MHFrontier-Pariapuria_Icon.png" id="1_uj7im"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_1x72g"]
+
+[resource]
+script = ExtResource("2_1x72g")
+nome = "Thirsty Pariapuria"
+foto = ExtResource("1_uj7im")
+capturavel = true
+comentario2 = "Good Luck!"
+comentario2_br = "Boa Sorte!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

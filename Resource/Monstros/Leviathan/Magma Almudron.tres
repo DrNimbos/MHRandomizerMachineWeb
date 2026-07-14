@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bs5rycqg0nl7e"]
+
+[ext_resource type="Texture2D" uid="uid://oflbkewth0he" path="res://Foto/Leviathan/MHRS-Magma_Almudron_Icon.png" id="1_8ai66"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_oprtl"]
+
+[resource]
+script = ExtResource("1_oprtl")
+nome = "Magma Almudron"
+foto = ExtResource("1_8ai66")
+capturavel = true
+tipo = 12
+comentario2 = "I've heard some hunters hate it... I can only imagine as to why..."
+comentario2_br = "Ouvi dizer que alguns caçadores odeiam isso... Só consigo imaginar o porquê."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

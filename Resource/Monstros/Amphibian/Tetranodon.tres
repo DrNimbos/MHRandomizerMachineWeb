@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bsgym6uncx5p2"]
+
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="1_g360t"]
+[ext_resource type="Texture2D" uid="uid://qo3bnqsm0dvg" path="res://Foto/Amphibian/MHRS-Tetranadon_Icon.png" id="1_uvbxv"]
+
+[resource]
+script = ExtResource("1_g360t")
+nome = "Tetranodon"
+foto = ExtResource("1_uvbxv")
+comentario2 = "I remember one time I went on an expedition and accidentally stepped on a Tetranodon, and it woke up... IT WASN'T MY FAULT, OKAY?!? THEY HIDE REALLY WELL!!"
+comentario2_br = "Lembro-me de uma vez em que fui a uma expedição, pisei sem querer em um Tetranodon e ele acordou... A CULPA NÃO FOI MINHA, OK?!? ELES SE ESCONDEM MUITO BEM!!"
+reacao = "3"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

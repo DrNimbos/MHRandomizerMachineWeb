@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bbql5hn1peoq1"]
+
+[ext_resource type="Texture2D" uid="uid://v7tao34na1jj" path="res://Foto/Brute Wyvern/MHGU-Glavenus_Icon.png" id="1_eckp5"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_slr5f"]
+
+[resource]
+script = ExtResource("2_slr5f")
+nome = "Glavenus"
+foto = ExtResource("1_eckp5")
+tempered = true
+capturavel = true
+tipo = 2
+comentario2 = "The leader of the Fated Four! That tail is so huge!"
+comentario2_br = "O líder do Fated Four! Aquela cauda é enorme!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

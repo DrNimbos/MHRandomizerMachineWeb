@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://d38qaabsaus30"]
+
+[ext_resource type="Texture2D" uid="uid://cvn2tg7kmpltq" path="res://Foto/Flying Wyvern/MHFrontier-Zenith_Rathalos_Icon.png" id="1_x47ev"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_b07hc"]
+
+[resource]
+script = ExtResource("2_b07hc")
+nome = "Zenith Rathalos"
+foto = ExtResource("1_x47ev")
+capturavel = true
+comentario2 = "Good Luck!"
+comentario2_br = "Boa Sorte!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

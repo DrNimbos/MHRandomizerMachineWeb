@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://boc7v7c2uwhow"]
+
+[ext_resource type="Texture2D" uid="uid://72dtsph2rkib" path="res://Foto/Leviathan/MHFrontier-Barlagual_Icon.png" id="1_g4ypu"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_v7r0e"]
+
+[resource]
+script = ExtResource("2_v7r0e")
+nome = "Barlagual"
+foto = ExtResource("1_g4ypu")
+capturavel = true
+tipo = 12
+comentario2 = "I remember reading about it for the first time, they are really cool!"
+comentario2_br = "Lembro-me de ler sobre isso pela primeira vez, eles são muito legais!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

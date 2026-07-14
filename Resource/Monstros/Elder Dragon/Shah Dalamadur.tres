@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bfk1tfsmvc6v3"]
+
+[ext_resource type="Texture2D" uid="uid://d36yei4g7vf4m" path="res://Foto/Elder Dragon/MH4U-Shah_Dalamadur_Icon.png" id="1_mqxew"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_v6pob"]
+
+[resource]
+script = ExtResource("2_v6pob")
+nome = "Shah Dalamadur"
+foto = ExtResource("1_mqxew")
+tipo = 8
+comentario2 = "To this day I don't know if this thing really exist or are just rumors..."
+comentario2_br = "Até hoje não sei se essa coisa realmente existe ou se são apenas boatos..."
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

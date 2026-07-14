@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dpadbaw7e2jnx"]
+
+[ext_resource type="Texture2D" uid="uid://dkh7vvj5p8cjv" path="res://Foto/Flying Wyvern/1stGen-White_Monoblos_Icon.png" id="1_mj0vg"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_puuvv"]
+
+[resource]
+script = ExtResource("2_puuvv")
+nome = "White Monoblos"
+foto = ExtResource("1_mj0vg")
+comentario2 = "Their anger are almost unmatched!"
+comentario2_br = "A raiva deles é quase inigualável!"
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

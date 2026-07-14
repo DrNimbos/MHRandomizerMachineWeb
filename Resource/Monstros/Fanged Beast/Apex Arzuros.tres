@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://d2njb6d42b4eu"]
+
+[ext_resource type="Texture2D" uid="uid://d32ni50u2kpjh" path="res://Foto/Fanged Beast/MHRS-Apex_Arzuros_Icon.png" id="1_mxk8f"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_ru3fp"]
+
+[resource]
+script = ExtResource("2_ru3fp")
+nome = "Apex Arzuros"
+foto = ExtResource("1_mxk8f")
+tipo = 9
+comentario2 = "Arzuros... but even Stronger!"
+comentario2_br = "Arzuros.... Mas mais forte!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

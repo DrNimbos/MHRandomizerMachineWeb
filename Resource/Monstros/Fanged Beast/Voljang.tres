@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://bkgapjukgtfnn"]
+
+[ext_resource type="Texture2D" uid="uid://ugjlu0p00pye" path="res://Foto/Fanged Beast/MHFrontier-Voljang_Icon.png" id="1_07ko3"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_vy1vl"]
+
+[resource]
+script = ExtResource("2_vy1vl")
+nome = "Voljang"
+foto = ExtResource("1_07ko3")
+tipo = 8
+comentario2 = "A relative of the Rajang! Apparently, it loves doing pirouettes..."
+comentario2_br = "Um relativo perto do Rajang! Aparentemente ele ama fazer pirueta.."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

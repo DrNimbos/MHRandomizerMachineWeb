@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://ckcqkn5bym4mx"]
+
+[ext_resource type="Texture2D" uid="uid://b0quscc7nh7wr" path="res://Foto/Fanged Beast/MHFrontier-Ray_Gougarf_Icon.png" id="1_3gbcv"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_7nh6l"]
+
+[resource]
+script = ExtResource("2_7nh6l")
+nome = "Ray Gougarf"
+foto = ExtResource("1_3gbcv")
+capturavel = true
+tipo = 9
+comentario2 = "I find very funny how their lifestyle consist of throwing hands with each other.."
+comentario2_br = "Acho muito engraçado como o estilo de vida deles consiste em cair na porrada entre si..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://c0fwt5ik030u1"]
+
+[ext_resource type="Texture2D" uid="uid://b83ejt3rmmy2w" path="res://Foto/Elder Dragon/MHFUiOS-Ashen_Lao-Shan_Lung_Icon.png" id="1_80x1q"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_0b348"]
+
+[resource]
+script = ExtResource("2_0b348")
+nome = "Ashen Lao-Shan Lung"
+foto = ExtResource("1_80x1q")
+tipo = 8
+comentario2 = "This being was apprently only sighted a few times in the entire guild history..."
+comentario2_br = "Ao que parece, essa criatura foi avistada apenas algumas vezes em toda a história da guilda..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

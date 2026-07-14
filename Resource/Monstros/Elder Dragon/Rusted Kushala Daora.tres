@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://b5qu72n4fecfy"]
+
+[ext_resource type="Texture2D" uid="uid://gp2x1sr1iqcj" path="res://Foto/Elder Dragon/MHFUiOS-Rusted_Kushala_Daora_Icon.png" id="1_71pxu"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_5qqcu"]
+
+[resource]
+script = ExtResource("2_5qqcu")
+nome = "Rusted Kushala Daora"
+foto = ExtResource("1_71pxu")
+tipo = 8
+comentario2 = "I can understand it's anger.. Must be very uncomfortable shedding it's metal skin.."
+comentario2_br = "Consigo entender a raiva dele... Deve ser muito desconfortável trocar de pele de metal..."
+reacao = "2"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

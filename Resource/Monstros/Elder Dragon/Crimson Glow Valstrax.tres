@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://by7cqnyohg3ie"]
+
+[ext_resource type="Texture2D" uid="uid://dg0jaxrg6st4g" path="res://Foto/Elder Dragon/MHRS-Crimson_Glow_Valstrax_Icon.png" id="1_ng1pc"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_kl73s"]
+
+[resource]
+script = ExtResource("2_kl73s")
+nome = "Crimson Glow Valstrax"
+foto = ExtResource("1_ng1pc")
+tipo = 8
+comentario2 = "I don't think I've ever saw one fly by.. Must be pretty.."
+comentario2_br = "Acho que nunca vi um passar voando... Deve ser lindo..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

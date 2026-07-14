@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://deg05ouui8uwi"]
+
+[ext_resource type="Texture2D" uid="uid://dim6ur32wfsfj" path="res://Foto/Brute Wyvern/MHP3-Jade_Barroth_Icon.png" id="1_s3ayh"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_e22yu"]
+
+[resource]
+script = ExtResource("2_e22yu")
+nome = "Jade Barroth"
+foto = ExtResource("1_s3ayh")
+capturavel = true
+tipo = 2
+comentario2 = "The change in color fascinates me a little..."
+comentario2_br = "A mudança de cores me fascina um pouco..."
+metadata/_custom_type_script = "uid://ct61dosx07dfj"

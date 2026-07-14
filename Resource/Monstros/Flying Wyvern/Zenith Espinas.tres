@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Monster" format=3 uid="uid://dogoikdow6rih"]
+
+[ext_resource type="Texture2D" uid="uid://dyg68dv6cqx4g" path="res://Foto/Flying Wyvern/MHFrontier-Zenith_Espinas_Icon.png" id="1_riurp"]
+[ext_resource type="Script" uid="uid://ct61dosx07dfj" path="res://Resource/monstros_base.gd" id="2_72vor"]
+
+[resource]
+script = ExtResource("2_72vor")
+nome = "Zenith Espinas"
+foto = ExtResource("1_riurp")
+capturavel = true
+comentario2 = "Good Luck!"
+comentario2_br = "Boa Sorte!"
+metadata/_custom_type_script = "uid://ct61dosx07dfj"
